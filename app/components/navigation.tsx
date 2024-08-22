@@ -54,3 +54,68 @@ export const NavBar=()=>{
         </div>
     )
 }
+
+
+export const Footer=()=>{
+    return(
+        <div className="m-0 p-0">
+            <div className="text-center container">
+                <h2 className="display-1 fw-bold text-black">Contact <span className="secondary_text">Us</span></h2>
+            </div>
+            <div className="container">
+            <div className="row mb-3 p-1">
+                <div className="col-sm">
+                <iframe className="w-100 h-100 rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3797.638410137692!2d31.04913077402001!3d-17.85557778311363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a500700abc9b%3A0x33b05d1a1f4eb5c8!2sMashkay%20Autoparts!5e0!3m2!1sen!2szw!4v1724341946954!5m2!1sen!2szw"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div className="col-sm">
+                    <form action="">
+                       <div className="mb-2">
+                        <span>Your Name</span>
+                        <input type="text" name="name" className="form-control"/>
+                       </div>
+                       <div className="mb-2">
+                        <span>Your Phone No</span>
+                        <input type="tel"name="phone_no"  className="form-control"/>
+                       </div>
+                       <div className="mb-2">
+                        <span>Your Email</span>
+                        <input type="text" name="email" className="form-control"/>
+                       </div>
+                       <div className="mb-2">
+                        <span>Your Message</span>
+                        <textarea className="form-control" name="message"></textarea>
+                       </div>
+                       <div>
+                        <button type="submit" className="btn secondary_button">Send Message</button>
+                       </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+           
+            <div className="secondary_background text-white p-3">
+                <div className="row">
+                    <div className="col-sm">
+                        <p className="fw-bold">Contact Details</p>
+                        <p>1 Edison Crescent, Harare , Zimbabwe</p>
+                        <p>sales@mashkay.co.zw</p>
+                        <p>{phone_no_formatted}</p>
+                    </div>
+                    <div className="col-sm">
+                        <p className="fw-bold">Pages</p>
+                        <p>Our Products</p>
+                        <p>About Us</p>
+                        <p>Blog</p>
+
+                    </div>
+                    <div className="col-sm">
+                        <div className="p-2 bg-white rounded">
+                            <img src="https://ngratesc.sirv.com/Mashkay/logo.png" className="img-fluid" alt="" />
+                        </div>
+                        <p className="fw-bold">Create Sites with Aurora</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
