@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { League_Spartan } from "next/font/google";
 import "./globals.css";
+import { NavBar } from "./components/navigation";
 
 const league_font = League_Spartan({ subsets: ["latin"] });
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={league_font.className}>{children}</body>
+      <body className={league_font.className}>
+        <NavBar/>
+        {children}
+      </body>
     </html>
   );
 }
