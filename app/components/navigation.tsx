@@ -43,7 +43,7 @@ export const NavBar=()=>{
                                 <Nav.Link className="text-white"href="/blog">Blog</Nav.Link>
                                 <Nav.Link className="text-white"href="#contact_us">Contact Us</Nav.Link>
                             </Nav>
-                            <button className="btn secondary_button p-2 border border-white border-3">Get A Qoute</button>
+                            <Link href="/get_a_qoute"><button className="btn secondary_button p-2 border border-white border-3">Get A Qoute</button></Link>
 
                         </NavbarCollapse>
                        
