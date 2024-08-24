@@ -2,6 +2,7 @@
 import { phone_no_formatted } from "./resusable"
 import { Container, Nav, Navbar, NavbarBrand, NavbarCollapse } from "react-bootstrap"
 import Image from "next/image"
+import Link from "next/link"
 export const NavBar=()=>{
     return(
         <div className="sticky-top bg-white">
@@ -38,7 +39,7 @@ export const NavBar=()=>{
                             <Nav className="text-white me-auto">
                                 <Nav.Link className="text-white" href="">Home</Nav.Link>
                                 <Nav.Link className="text-white"href="">Our Products</Nav.Link>
-                                <Nav.Link className="text-white"href="">About Us</Nav.Link>
+                                <Nav.Link className="text-white"href="/about_us">About Us</Nav.Link>
                                 <Nav.Link className="text-white"href="">Blog</Nav.Link>
                                 <Nav.Link className="text-white"href="">Contact Us</Nav.Link>
                             </Nav>
@@ -93,28 +94,31 @@ export const Footer=()=>{
             </div>
             </div>
            
-            <div className="secondary_background text-white p-3">
-                <div className="row">
-                    <div className="col-sm">
+            <div className="bg-black text-white p-3 ">
+                <div className="d-flex flex-row align-items-centerjustify-content-center">
+                    <div className="col-sm text-center">
                         <p className="fw-bold">Contact Details</p>
                         <p>1 Edison Crescent, Harare , Zimbabwe</p>
                         <p>sales@mashkay.co.zw</p>
                         <p>{phone_no_formatted}</p>
                     </div>
-                    <div className="col-sm">
+                    <div className="col-sm text-center">
                         <p className="fw-bold">Pages</p>
                         <p>Our Products</p>
-                        <p>About Us</p>
+                        <Link href={"/about_us"}>About Us</Link>
                         <p>Blog</p>
 
                     </div>
-                    <div className="col-sm">
-                        <div className="p-2 bg-white rounded">
-                            <img src="https://ngratesc.sirv.com/Mashkay/logo.png" className="img-fluid" alt="" />
+                    <div className="col-sm d-flex align-items-center">
+                        <div className="p-2 rounded">
+                            <img src="https://ngratesc.sirv.com/Mashkay/logo.png"  className="img-fluid bg-white p-2 rounded" alt="" />
                         </div>
-                        <p className="fw-bold">Create Sites with Aurora</p>
                     </div>
+                   
                 </div>
+            </div>
+            <div className="secondary_background text-center">
+                   <span className="text-white">Designed By <a className="text-white" href="https://aurorasystems.co.zw" target="_blank">Aurora</a></span> 
             </div>
         </div>
     )

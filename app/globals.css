@@ -4,6 +4,7 @@
 :root{
   --primary_color:black;
   --secondary_color:red;
+  --secondary_opacity_color:rgba(255, 0, 0, 0.562);
 }
 
 .secondary_text{
@@ -28,8 +29,16 @@
   background-color: var(--secondary_color);
 }
 
+.secondary_opacity_bg{
+  background-color: var(--secondary_opacity_color);
+}
 
 .instock_items{
   width: 200px !important;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
 

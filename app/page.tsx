@@ -21,7 +21,7 @@ export default function Home() {
               WHY US?
             </h2>
             <p>
-              At Mashkay Autoparts, we are dedicated to providing high-quality vehicle parts for all your automotive needs. Our extensive inventory includes a wide range of genuine and reliable auto parts designed to keep your vehicle running smoothly and efficiently. Whether you're a DIY enthusiast or a professional mechanic, we have the parts and expertise to support your automotive projects.
+              At Mashkay Autoparts, we are dedicated to providing high-quality vehicle parts for all your automotive needs. Our extensive inventory includes a wide range of genuine and reliable auto parts designed to keep your vehicle running smoothly and efficiently. Whether you&apos;re a DIY enthusiast or a professional mechanic, we have the parts and expertise to support your automotive projects.
               <br />
               Explore our site to find the parts you need and enjoy exceptional service with fast shipping and competitive prices. At Mashkay Autoparts, we are committed to excellence in every part we offer.
             </p>
