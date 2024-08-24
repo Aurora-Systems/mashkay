@@ -37,11 +37,11 @@ export const NavBar=()=>{
                         </Navbar.Toggle>
                         <NavbarCollapse  id="basic-navbar-nav">
                             <Nav className="text-white me-auto">
-                                <Nav.Link className="text-white" href="">Home</Nav.Link>
+                                <Nav.Link className="text-white" href="/">Home</Nav.Link>
                                 <Nav.Link className="text-white"href="">Our Products</Nav.Link>
                                 <Nav.Link className="text-white"href="/about_us">About Us</Nav.Link>
-                                <Nav.Link className="text-white"href="">Blog</Nav.Link>
-                                <Nav.Link className="text-white"href="">Contact Us</Nav.Link>
+                                <Nav.Link className="text-white"href="/blog">Blog</Nav.Link>
+                                <Nav.Link className="text-white"href="#contact_us">Contact Us</Nav.Link>
                             </Nav>
                             <button className="btn secondary_button p-2 border border-white border-3">Get A Qoute</button>
 
@@ -59,7 +59,7 @@ export const NavBar=()=>{
 
 export const Footer=()=>{
     return(
-        <div className="m-0 p-0">
+        <div className="m-0 p-0" id="contact_us">
             <div className="text-center container">
                 <h2 className="display-1 fw-bold text-black">Contact <span className="secondary_text">Us</span></h2>
             </div>

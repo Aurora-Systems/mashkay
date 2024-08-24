@@ -3,7 +3,7 @@
 
 :root{
   --primary_color:black;
-  --secondary_color:red;
+  --secondary_color:#ff0000;
   --secondary_opacity_color:rgba(255, 0, 0, 0.562);
 }
 
