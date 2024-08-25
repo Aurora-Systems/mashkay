@@ -17,14 +17,14 @@ export default function Home() {
       <div className="container_fluid mt-5 mb-5"> 
           <div className="text-center">
             <h2 className="fw-bold display-2 text-black">The Autopart <span className="secondary_text">Centre</span></h2>
-            <p>Mashkay Offers the widest range of premium quality parts. There is no substitute to quality
+            <p className="p-3">Mashkay Offers the widest range of premium quality parts. There is no substitute to quality
 when it comes to premium vehicle replacement parts. That’s why Mashkay stocks
 aunthentic brands made to match OE specifications . With countrywide
 distribution we offer a consistent supply of superior quality suitable replacement
 parts delivered to you remarkably at affordable
 prices.</p>
           </div>
-          <div className="container">
+          <div className="m-5">
           <div className="row gap-2 text-white">
             <div className="col-sm secondary_background rounded p-2 text-center mb-2">
               <h4 className="fw-bold text-center">Buses</h4>
@@ -50,6 +50,9 @@ prices.</p>
               <img src="https://ngratesc.sirv.com/Mashkay/Pickup.png" className="img-fluid" alt="" />
 
             </div>
+          </div>
+          <div className="text-center mt-3">
+            <button className="btn bg-black rounded text-white primary_button">Shop Now</button>
           </div>
           </div>
       </div>

@@ -42,7 +42,7 @@ Professinalism,Customer focus ,Commitment to teamwork and intergrity.</p>
                     </div>
                 </div>
             </div>
-            <div className="text-center container mb-5 mt-5">
+            <div className="text-center m-5 mb-5 mt-5">
                     <div>
                         <h2 className="display-2 fw-bold text-black"> Our <span className="secondary_text">Values</span></h2>
                     </div>
