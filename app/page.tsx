@@ -14,6 +14,45 @@ export default function Home() {
 
         </div>
       </div>
+      <div className="container_fluid mt-5 mb-5"> 
+          <div className="text-center">
+            <h2 className="fw-bold display-2 text-black">The Autopart <span className="secondary_text">Centre</span></h2>
+            <p>Mashkay Offers the widest range of premium quality parts. There is no substitute to quality
+when it comes to premium vehicle replacement parts. That’s why Mashkay stocks
+aunthentic brands made to match OE specifications . With countrywide
+distribution we offer a consistent supply of superior quality suitable replacement
+parts delivered to you remarkably at affordable
+prices.</p>
+          </div>
+          <div className="container">
+          <div className="row gap-2 text-white">
+            <div className="col-sm secondary_background rounded p-2 text-center mb-2">
+              <h4 className="fw-bold text-center">Buses</h4>
+              <img src="https://ngratesc.sirv.com/Mashkay/Bus.png" className="img-fluid" alt="" />
+            </div>
+            <div className="col-sm secondary_background rounded p-2 text-center mb-2">
+              <h4 className="fw-bold text-center">Trucks</h4>
+              <img src="https://ngratesc.sirv.com/Mashkay/Truck.png" className="img-fluid" alt="" />
+
+            </div>
+            <div className="col-sm secondary_background rounded p-2 text-center mb-2">
+              <h4 className="fw-bold text-center">Yellow Machines</h4>
+              <img src="https://ngratesc.sirv.com/Mashkay/Digger.png" className="img-fluid" alt="" />
+
+            </div>
+            <div className="col-sm secondary_background rounded p-2 text-center mb-2">
+              <h4 className="fw-bold text-center">Light Vehicles</h4>
+              <img src="https://ngratesc.sirv.com/Mashkay/Car.png" className="img-fluid" alt="" />
+
+            </div>
+            <div className="col-sm secondary_background rounded p-2 text-center mb-2">
+              <h4 className="fw-bold">4x4</h4>
+              <img src="https://ngratesc.sirv.com/Mashkay/Pickup.png" className="img-fluid" alt="" />
+
+            </div>
+          </div>
+          </div>
+      </div>
       <div className="container-fluid">
         <div className="row ">
           <div className="col-sm  text-center bg-black text-white border-end border-danger border-5">

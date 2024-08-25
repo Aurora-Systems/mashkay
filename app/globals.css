@@ -19,6 +19,14 @@
 
 }
 
+.secondary_button:active{
+  background-color: var(--secondary_color) !important;
+}
+
+.secondary_button:hover{
+  background-color: var(--secondary_color) !important;
+}
+
 .primary_button{
   color: white !important;
   background-color: var(--primary_color);
