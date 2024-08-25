@@ -18,7 +18,7 @@ export default function AboutUs() {
                     <p>Mashkay Autoparts is an Automotive Solutions provider, registered and
                         domiciled in Zimbabwe. The Company has more than three years in the
                         industry and has extremely done well in terms of the market share and service
-                        quality. We respect our client’s priorities and needs. We emphasize excellent
+                        quality. We respect our client&apos;s priorities and needs. We emphasize excellent
                         teamwork with our clients and together we can co- manage and co- create
                         solutions that ensure best customer value for their development budget within
                         the fastest possible time.As a business we strive to grow and mature through
