@@ -1,7 +1,6 @@
 "use client"
 import { phone_no_formatted } from "./resusable"
-import { Container, Nav, Navbar, NavbarBrand, NavbarCollapse } from "react-bootstrap"
-import Image from "next/image"
+import { Nav, Navbar, NavbarBrand, NavbarCollapse } from "react-bootstrap"
 import Link from "next/link"
 export const NavBar=()=>{
     return(
@@ -17,7 +16,6 @@ export const NavBar=()=>{
             </div>
             <div className="bg-black p-0 sticky-top">
                 <div className="ms-2 me-2">
-
                 <Navbar expand="lg" >
                  
                        <NavbarBrand>
@@ -44,13 +42,9 @@ export const NavBar=()=>{
                                 <Nav.Link className="text-white"href="#contact_us">Contact Us</Nav.Link>
                             </Nav>
                             <Link href="/get_a_qoute"><button className="btn secondary_button p-2 border border-white border-3">Get A Qoute</button></Link>
-
                         </NavbarCollapse>
-                       
-                   
                 </Navbar>
                 </div>
-
             </div>
         </div>
     )
@@ -96,22 +90,22 @@ export const Footer=()=>{
            
             <div className="bg-black text-white p-3 ">
                 <div className="d-flex flex-row align-items-centerjustify-content-center">
-                    <div className="col-sm text-center">
-                        <p className="fw-bold">Contact Details</p>
-                        <p>1 Edison Crescent, Harare , Zimbabwe</p>
-                        <p>sales@mashkay.co.zw</p>
-                        <p>{phone_no_formatted}</p>
+                    <div className="col-sm d-flex flex-column text-center">
+                        <span className="fw-bold">Contact Details</span>
+                        <span>1 Edison Crescent, Harare , Zimbabwe</span>
+                        <span>sales@mashkay.co.zw</span>
+                        <span>{phone_no_formatted}</span>
                     </div>
-                    <div className="col-sm text-center">
-                        <p className="fw-bold">Pages</p>
-                        <p>Our Products</p>
+                    <div className="col-sm text-center d-flex flex-column ">
+                        <span className="fw-bold">Pages</span>
+                        <Link href={"/our_products"}>Our Products</Link>
                         <Link href={"/about_us"}>About Us</Link>
-                        <p>Blog</p>
+                        <Link href={"/blog"}>Blog</Link>
 
                     </div>
-                    <div className="col-sm d-flex align-items-center">
+                    <div className="col-sm d-flex align-items-center justify-content-center">
                         <div className="p-2 rounded">
-                            <img src="https://ngratesc.sirv.com/Mashkay/logo.png"  className="img-fluid bg-white p-2 rounded" alt="" />
+                            <img src="https://ngratesc.sirv.com/Mashkay/logo.png" width={200}  className="img-fluid bg-white p-2 rounded" alt="" />
                         </div>
                     </div>
                    
