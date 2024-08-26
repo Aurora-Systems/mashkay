@@ -89,7 +89,7 @@ export const Footer=()=>{
             </div>
            
             <div className="bg-black text-white p-3 ">
-                <div className="d-flex flex-row align-items-centerjustify-content-center">
+                <div className="row d-flex flex-row align-items-centerjustify-content-center">
                     <div className="col-sm d-flex flex-column text-center">
                         <span className="fw-bold">Contact Details</span>
                         <span>1 Edison Crescent, Harare , Zimbabwe</span>
