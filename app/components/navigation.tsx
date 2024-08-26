@@ -36,7 +36,7 @@ export const NavBar=()=>{
                         <NavbarCollapse  id="basic-navbar-nav">
                             <Nav className="text-white me-auto">
                                 <Nav.Link className="text-white" href="/">Home</Nav.Link>
-                                <Nav.Link className="text-white"href="">Our Products</Nav.Link>
+                                <Nav.Link className="text-white"href="/our_products">Our Products</Nav.Link>
                                 <Nav.Link className="text-white"href="/about_us">About Us</Nav.Link>
                                 <Nav.Link className="text-white"href="/blog">Blog</Nav.Link>
                                 <Nav.Link className="text-white"href="#contact_us">Contact Us</Nav.Link>

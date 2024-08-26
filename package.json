@@ -15,7 +15,8 @@
     "react": "^18",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18",
-    "react-fast-marquee": "^1.6.5"
+    "react-fast-marquee": "^1.6.5",
+    "ss-search": "^1.9.0"
   },
   "devDependencies": {
     "@types/node": "^20",
