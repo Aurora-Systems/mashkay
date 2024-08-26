@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { League_Spartan } from "next/font/google";
 import "./globals.css";
 import { Footer, NavBar } from "./components/navigation";
+import { Floating } from "./components/floating_component";
 
 const league_font = League_Spartan({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={league_font.className}>
         <NavBar/>
         {children}
+        <Floating/>
         <Footer/>
       </body>
     </html>

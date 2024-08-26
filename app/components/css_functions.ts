@@ -7,3 +7,4 @@ export const bg_img=(image_source:string)=>{
         }
     )
 }
+

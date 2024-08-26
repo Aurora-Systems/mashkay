@@ -1,5 +1,6 @@
 import Marquee from "react-fast-marquee"
 import { bg_img } from "./components/css_functions"
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
             MASHKAY AUTOPARTS
           </h1>
           <p className="fw-bold">Your One Stop Shop For All Your Autoparts</p>
-          <button className="btn btn-black text-white primary_button">Shop Now</button>
+          <Link href="/our_products"><button className="btn btn-black text-white primary_button">Shop Now</button></Link>
 
         </div>
       </div>
@@ -52,7 +53,7 @@ prices.</p>
             </div>
           </div>
           <div className="text-center mt-3">
-            <button className="btn bg-black rounded text-white primary_button">Shop Now</button>
+          <Link href="/our_products"><button className="btn bg-black rounded text-white primary_button">Shop Now</button></Link>
           </div>
           </div>
       </div>
@@ -175,7 +176,7 @@ prices.</p>
           <div>
             <img src="https://ngratesc.sirv.com/Mashkay/instock_banner.png" className="img-fluid"/>
           </div>
-          <button className="btn secondary_button mt-2">Shop Now</button>
+          <Link href="/our_products"><button className="btn secondary_button mt-2">Shop Now</button></Link>
       </div>
       <div className="bg-black text-center mt-4">
         <h2 className="display-2 fw-bold text-white">Our Product <span className="secondary_text">Partners</span></h2>
