@@ -140,8 +140,6 @@ prices.</p>
               </div>
             </div>
           </div>
-
-      
           <div className="col-sm me-4 instock_items">
             <div className="d-flex flex-row align-items-center text-center gap-2 bg-light">
               <div className="secondary_background rounded p-3">
