@@ -2,6 +2,7 @@
 import * as JsSearch from "js-search"
 import data from "../db/products.json"
 import { useState, useRef, useEffect } from "react";
+import Link from "next/link";
 type Product = {
     product_name: string;
     product_img: string;
@@ -33,7 +34,6 @@ export default function OurProducts(){
             }
     }
 
-    
    
     return(
         <div className="min-vh-100">
@@ -62,7 +62,7 @@ export default function OurProducts(){
                                 </div>
                                 <div className="p-2 text-truncate">
                                     <p className="fw-bold text-center">{i.product_category}</p>
-                                    <button className="btn secondary_button">View</button>
+                                    <Link target="_blank" href={`https://wa.me/263782255545?text=Can I get more information on ${i.product_category}`}><button className="btn secondary_button">View</button></Link>
                                 </div>
                                 
 
