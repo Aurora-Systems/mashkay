@@ -52,7 +52,7 @@ export default function OurProducts(){
                     onChange={(e)=>handle_search(e.target.value)}
                 />
             </div>
-            <div className="results d-flex flex-row flex-wrap gap-3 mt-4 justify-content-center">
+            <div className="results d-flex flex-row flex-wrap gap-3 mt-4 mb-5 justify-content-center">
                 {
                     items.map((i,index)=>{
                         return(
