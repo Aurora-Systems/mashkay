@@ -3,6 +3,7 @@ import * as JsSearch from "js-search"
 import data from "../db/products.json"
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+
 type Product = {
     product_name: string;
     product_img: string;
