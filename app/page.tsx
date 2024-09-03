@@ -94,9 +94,9 @@ prices.</p>
         <h2 className="display-2 fw-bold text-black mb-5">In <span className="secondary_text">Stock</span></h2>
         <Marquee>
           <div className="col-sm me-4 instock_items">
-            <div className="d-flex flex-row align-items-center gap-2 bg-light">
-              <div className="secondary_background rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/engine.png" width="30" className="img-fluid" />
+            <div className="align-items-center gap-2 bg-light">
+              <div className="rounded p-3">
+                <img src="https://ngratesc.sirv.com/Mashkay/intricate-arrangement-automotive-engine-components-displayed-neutral-background-transparent-png-background_94628-97333.jpg"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Engine Parts</span>
@@ -104,9 +104,9 @@ prices.</p>
             </div>
           </div>
           <div className="col-sm me-4 instock_items">
-            <div className="d-flex flex-row align-items-center gap-2 bg-light">
-              <div className="secondary_background rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/car_battery.png" width="30" className="img-fluid" />
+            <div className=" align-items-center gap-2 bg-light">
+              <div className=" rounded p-3">
+                <img src="https://ngratesc.sirv.com/Mashkay/close-up-hand-male-mechanic-changing-car-battery-car-service-center-concept-car-maintenance_61243-1199.avif"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Electrical</span>
@@ -114,9 +114,9 @@ prices.</p>
             </div>
           </div>
           <div className="col-sm me-4 instock_items">
-            <div className="d-flex flex-row align-items-center gap-2 bg-light">
-              <div className="secondary_background rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/Fan.png" width="30" className="img-fluid" />
+            <div className="align-items-center gap-2 bg-light">
+              <div className="rounded p-3">
+                <img src="https://ngratesc.sirv.com/Mashkay/radiator.avif"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Cooling Parts</span>
@@ -126,9 +126,9 @@ prices.</p>
 
     
           <div className="col-sm me-4 instock_items">
-            <div className="d-flex flex-row align-items-center gap-2 bg-light">
-              <div className="secondary_background rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/suspension.png" width="30" className="img-fluid" />
+            <div className="align-items-center gap-2 bg-light">
+              <div className="rounded p-3">
+                <img src="https://ngratesc.sirv.com/Mashkay/electric-car-cystem-wheelbase-with-electric-vehicle-drive-system-battery-pack-3d-render-white_268321-2970.jpg" width="" className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Suspension</span>
@@ -136,9 +136,9 @@ prices.</p>
             </div>
           </div> 
           <div className="col-sm me-4 instock_items">
-            <div className="d-flex flex-row align-items-center gap-2 bg-light">
-              <div className="secondary_background rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/Coil.png" width="30" className="img-fluid" />
+            <div className="align-items-center gap-2 bg-light">
+              <div className="rounded p-3">
+                <img src="https://ngratesc.sirv.com/Mashkay/springs.jpg" className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Springs</span>
@@ -146,9 +146,9 @@ prices.</p>
             </div>
           </div>
           <div className="col-sm me-4 instock_items">
-            <div className="d-flex flex-row align-items-center gap-2 bg-light">
-              <div className="secondary_background rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/Horn.png" width="30" className="img-fluid" />
+            <div className="align-items-center gap-2 bg-light">
+              <div className="rounded p-3">
+                <img src="https://ngratesc.sirv.com/Mashkay/red-signal-horn-truck-bus_1032820-2540.jpg"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Horns</span>
@@ -156,9 +156,9 @@ prices.</p>
             </div>
           </div>
           <div className="col-sm me-4 instock_items">
-            <div className="d-flex flex-row align-items-center text-center gap-2 bg-light">
-              <div className="secondary_background rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/lights.png" width="30" className="img-fluid" />
+            <div className=" align-items-center text-center gap-2 bg-light">
+              <div className="rounded p-3">
+                <img src="https://ngratesc.sirv.com/Mashkay/rear-light-new-silver-car_23-2147962986.jpg"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Lights</span>
@@ -166,9 +166,9 @@ prices.</p>
             </div>
           </div>
           <div className="col-sm me-4 instock_items">
-            <div className="d-flex flex-row align-items-center gap-2 bg-light">
-              <div className="secondary_background rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/filter.png" width="30" className="img-fluid" />
+            <div className=" align-items-center gap-2 bg-light">
+              <div className="rounded p-3">
+                <img src="https://ngratesc.sirv.com/Mashkay/oil-filters-white-background_995428-11620.avif"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Filter Parts</span>
@@ -176,9 +176,9 @@ prices.</p>
             </div>
           </div>
           <div className="col-sm  me-4 instock_items" >
-            <div className="d-flex flex-row align-items-center gap-2 bg-light">
-              <div className="secondary_background rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/CD.png" width="30" className="img-fluid" />
+            <div className=" align-items-center gap-2 bg-light">
+              <div className=" rounded p-3">
+                <img src="https://ngratesc.sirv.com/Mashkay/26910.jpg"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Brake Disks and Pads</span>
