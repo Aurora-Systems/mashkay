@@ -29,26 +29,41 @@ prices.</p>
           <div className="row gap-2 text-white">
             <div className="col-sm secondary_background rounded p-2 text-center mb-2">
               <h4 className="fw-bold text-center">Buses</h4>
-              <img src="https://ngratesc.sirv.com/Mashkay/Bus.png" className="img-fluid" alt="" />
+              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/1688647792248.jpeg")} >
+
+              </div>
+              {/* <img src="" className="img-thumbnail" alt="" /> */}
             </div>
             <div className="col-sm secondary_background rounded p-2 text-center mb-2">
               <h4 className="fw-bold text-center">Trucks</h4>
-              <img src="https://ngratesc.sirv.com/Mashkay/Truck.png" className="img-fluid" alt="" />
+              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/1294.jpg")} >
+
+              </div>
+              {/* <img src="https://ngratesc.sirv.com/Mashkay/1294.jpg" className="img-thumbnail" alt="" /> */}
 
             </div>
             <div className="col-sm secondary_background rounded p-2 text-center mb-2">
               <h4 className="fw-bold text-center">Yellow Machines</h4>
-              <img src="https://ngratesc.sirv.com/Mashkay/Digger.png" className="img-fluid" alt="" />
+              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/2149194766.jpg")} >
+
+              </div>
+              {/* <img src="https://ngratesc.sirv.com/Mashkay/2149194766.jpg" className="img-thumbnail" alt="" /> */}
 
             </div>
             <div className="col-sm secondary_background rounded p-2 text-center mb-2">
               <h4 className="fw-bold text-center">Light Vehicles</h4>
-              <img src="https://ngratesc.sirv.com/Mashkay/Car.png" className="img-fluid" alt="" />
+              <div className="small_img_holder rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/pexels-introspectivedsgn-27639777.jpg")} >
+
+              </div>
+              {/* <img src="https://ngratesc.sirv.com/Mashkay/pexels-introspectivedsgn-27639777.jpg" className="img-thumbnail" alt="" /> */}
 
             </div>
-            <div className="col-sm secondary_background rounded p-2 text-center mb-2">
+            <div className="col-sm secondary_background rounded p-2 text-center mb-2" >
               <h4 className="fw-bold">4x4</h4>
-              <img src="https://ngratesc.sirv.com/Mashkay/Pickup.png" className="img-fluid" alt="" />
+              <div className="small_img_holder rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/pexels-lenzatic-17157308.jpg")} >
+
+</div>
+              {/* <img src="https://ngratesc.sirv.com/Mashkay/pexels-lenzatic-17157308.jpg" className="img-thumbnail" alt="" /> */}
 
             </div>
           </div>
