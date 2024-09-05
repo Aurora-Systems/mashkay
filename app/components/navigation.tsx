@@ -131,10 +131,12 @@ export const Footer=()=>{
                         <Link href={"/blog"}>Blog</Link>
 
                     </div>
-                    <div className="col-sm d-flex align-items-center justify-content-center">
-                        <div className="p-2 rounded">
-                            <img src="https://ngratesc.sirv.com/Mashkay/logo.png" width={200}  className="img-fluid bg-white p-2 rounded" alt="" />
-                        </div>
+                    <div className="col-sm d-flex flex-column align-items-center justify-content-center">
+                           <span className="fw-bold">Socials</span>
+                           <Link href={"https://www.instagram.com/mashkayautoparts/?hl=en"}>Instagram</Link>
+                           <Link href={"https://www.facebook.com/profile.php?id=61557083832788&mibextid=ZbWKwL"}>Facebook</Link>
+                           {/* <Link href={""}>Linkedin</Link> */}
+
                     </div>
                    
                 </div>

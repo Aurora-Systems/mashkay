@@ -72,8 +72,8 @@ prices.</p>
           </div>
           </div>
       </div>
-      <div className="container-fluid">
-        <div className="row ">
+      <div className="container-fluid ">
+        <div className="row bg-black pt-5 pb-5 ">
           <div className="col-sm  text-center bg-black text-white border-end border-danger border-5">
             <h2 className="display-2 fw-bold ">
               WHY US?
