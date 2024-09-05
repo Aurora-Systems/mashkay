@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@types/js-search": "^1.4.4",
     "@types/lodash": "^4.17.7",
     "bootstrap": "^5.3.3",
@@ -21,6 +22,7 @@
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.5",
     "react-floating-whatsapp": "^5.0.8",
+    "react-toastify": "^10.0.5",
     "ss-search": "^1.9.0"
   },
   "devDependencies": {

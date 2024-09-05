@@ -1,7 +1,11 @@
 "use client"
 import { phone_no_formatted } from "./resusable"
 import { Nav, Navbar, NavbarBrand, NavbarCollapse } from "react-bootstrap"
+import { FormEvent, useRef } from "react"
 import Link from "next/link"
+import emailjs from "@emailjs/browser"
+import { ToastContainer, toast } from 'react-toastify';
+
 export const NavBar=()=>{
     return(
         <div className="sticky-top bg-white">
@@ -52,6 +56,25 @@ export const NavBar=()=>{
 
 
 export const Footer=()=>{
+    const form:any = useRef(null)
+    const send_email=(e:FormEvent)=>{
+        e.preventDefault()
+
+        emailjs
+      .sendForm('service_yrdimda', 'template_dptfj1n', form.current, {
+        publicKey: 'UiTheRT3ZQsrbXGtJ',
+      })
+      .then(
+        () => {
+          toast('Message sent!');
+            form.current.reset(); // Reset the form using ref
+          
+        },
+        (error) => {
+          toast('Failed to send message please try again later');
+        },
+      );
+    }
     return(
         <div className="m-0 p-0" id="contact_us">
             <div className="text-center container">
@@ -63,10 +86,15 @@ export const Footer=()=>{
                 <iframe className="w-100 h-100 rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3797.638410137692!2d31.04913077402001!3d-17.85557778311363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a500700abc9b%3A0x33b05d1a1f4eb5c8!2sMashkay%20Autoparts!5e0!3m2!1sen!2szw!4v1724341946954!5m2!1sen!2szw"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div className="col-sm">
-                    <form action="">
+                    <form ref={form} onSubmit={send_email}>
                        <div className="mb-2">
                         <span>Your Name</span>
-                        <input type="text" name="name" className="form-control"/>
+                        <input 
+                            type="text" 
+                            name="name" 
+                            className="form-control"
+                        
+                        />
                        </div>
                        <div className="mb-2">
                         <span>Your Phone No</span>
@@ -114,6 +142,7 @@ export const Footer=()=>{
             <div className="secondary_background text-center">
                    <span className="text-white">Designed By <a className="text-white" href="https://aurorasystems.co.zw" target="_blank">Aurora</a></span> 
             </div>
+            <ToastContainer/>
         </div>
     )
 }

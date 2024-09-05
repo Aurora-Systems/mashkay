@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { League_Spartan } from "next/font/google";
 import "./globals.css";
 import { Footer, NavBar } from "./components/navigation";
+import 'react-toastify/dist/ReactToastify.css';
 import { Floating } from "./components/floating_component";
 
 const league_font = League_Spartan({ subsets: ["latin"] });
