@@ -52,7 +52,7 @@ prices.</p>
             </div>
             <div className="col-sm secondary_background rounded p-2 text-center mb-2">
               <h4 className="fw-bold text-center">Light Vehicles</h4>
-              <div className="small_img_holder rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/pexels-introspectivedsgn-27639777.jpg")} >
+              <div className="small_img_holder rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/pexels-mikebirdy-898336.jpg")} >
 
               </div>
               {/* <img src="https://ngratesc.sirv.com/Mashkay/pexels-introspectivedsgn-27639777.jpg" className="img-thumbnail" alt="" /> */}
