@@ -1,10 +1,11 @@
 "use client"
 import { phone_no_formatted } from "./resusable"
 import { Nav, Navbar, NavbarBrand, NavbarCollapse } from "react-bootstrap"
-import { FormEvent, useRef } from "react"
+import { FormEvent, useRef, useState } from "react"
 import Link from "next/link"
 import emailjs from "@emailjs/browser"
 import { ToastContainer, toast } from 'react-toastify';
+
 
 export const NavBar=()=>{
     return(
@@ -56,9 +57,11 @@ export const NavBar=()=>{
 
 
 export const Footer=()=>{
+    const [loading,set_loading] = useState<boolean>(false)
     const form:any = useRef(null)
     const send_email=(e:FormEvent)=>{
         e.preventDefault()
+        set_loading(true)
 
         emailjs
       .sendForm('service_yrdimda', 'template_dptfj1n', form.current, {
@@ -73,7 +76,9 @@ export const Footer=()=>{
         (error) => {
           toast('Failed to send message please try again later');
         },
-      );
+      ).finally(()=>{
+        set_loading(false)
+      })
     }
     return(
         <div className="m-0 p-0" id="contact_us">
@@ -93,7 +98,6 @@ export const Footer=()=>{
                             type="text" 
                             name="name" 
                             className="form-control"
-                        
                         />
                        </div>
                        <div className="mb-2">
@@ -109,7 +113,7 @@ export const Footer=()=>{
                         <textarea className="form-control" name="message"></textarea>
                        </div>
                        <div>
-                        <button type="submit" className="btn secondary_button">Send Message</button>
+                        <button type="submit" className="btn secondary_button" disabled={loading}>{loading?"Sending...":"Send Message"}</button>
                        </div>
                     </form>
                 </div>
