@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <div className="p-0 m-0 d-flex align-items-center justify-content-center" style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/Untitled%20design%20(1).png"), height: "85vh" }}>
+      <div className="p-0 m-0 d-flex align-items-center justify-content-center" style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/banner_main.png"), height: "85vh" }}>
         <div className="text-center text-white">
           <h1 className="display-1 fw-bold ">
             MASHKAY AUTOPARTS
@@ -36,7 +36,7 @@ prices.</p>
             </div>
             <div className="col-sm secondary_background rounded p-2 text-center mb-2">
               <h4 className="fw-bold text-center">Trucks</h4>
-              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/1294.jpg")} >
+              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/163035234858169.jpg")} >
 
               </div>
               {/* <img src="https://ngratesc.sirv.com/Mashkay/1294.jpg" className="img-thumbnail" alt="" /> */}
@@ -44,20 +44,13 @@ prices.</p>
             </div>
             <div className="col-sm secondary_background rounded p-2 text-center mb-2">
               <h4 className="fw-bold text-center">Yellow Machines</h4>
-              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/2149194766.jpg")} >
+              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/CM20210126-5d492-16f0e.jpeg")} >
 
               </div>
               {/* <img src="https://ngratesc.sirv.com/Mashkay/2149194766.jpg" className="img-thumbnail" alt="" /> */}
 
             </div>
-            <div className="col-sm secondary_background rounded p-2 text-center mb-2">
-              <h4 className="fw-bold text-center">Light Vehicles</h4>
-              <div className="small_img_holder rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/pexels-mikebirdy-898336.jpg")} >
-
-              </div>
-              {/* <img src="https://ngratesc.sirv.com/Mashkay/pexels-introspectivedsgn-27639777.jpg" className="img-thumbnail" alt="" /> */}
-
-            </div>
+          
             <div className="col-sm secondary_background rounded p-2 text-center mb-2" >
               <h4 className="fw-bold">4x4</h4>
               <div className="small_img_holder rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/pexels-lenzatic-17157308.jpg")} >
@@ -91,8 +84,8 @@ prices.</p>
         </div>
       </div>
       <div className="text-center container-fluid">
-        <h2 className="display-2 fw-bold text-black mb-5">In <span className="secondary_text">Stock</span></h2>
-        <Marquee>
+        {/* <h2 className="display-2 fw-bold text-black mb-5">In <span className="secondary_text">Stock</span></h2> */}
+        {/* <Marquee>
           <div className="col-sm me-4 instock_items">
             <div className="align-items-center gap-2 bg-light">
               <div className="rounded p-3">
@@ -185,11 +178,10 @@ prices.</p>
               </div>
             </div>
           </div>
-          </Marquee>
+          </Marquee> */}
           <div>
             <img src="https://ngratesc.sirv.com/Mashkay/instock_banner.png" className="img-fluid"/>
           </div>
-          <Link href="/our_products"><button className="btn secondary_button mt-2">Shop Now</button></Link>
       </div>
       <div className="bg-black text-center mt-4">
         <h2 className="display-2 fw-bold text-white">Our Product <span className="secondary_text">Partners</span></h2>

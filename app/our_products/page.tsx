@@ -1,23 +1,8 @@
 "use client"
-import * as JsSearch from "js-search"
-import data from "../db/products.json"
-import { useState, useRef, useEffect } from "react";
-import Link from "next/link";
 import { bg_img } from "../components/css_functions";
-
-type Product = {
-    product_name: string;
-    product_img: string;
-    catalogue_link: string;
-    product_category: string;
-};
-
-type ProductList = Product[];
 
 export default function OurProducts(){
     
-
-   
     return(
         <div className="">
             <div className="text-center mt-5">
@@ -31,7 +16,7 @@ export default function OurProducts(){
                     </div>
                     <div className="secondary_background text-white p-3 rounded-bottom d-flex justify-content-between" >
                         <h5>Trucks</h5>
-                        <a href="/trucks"><u>View Products</u></a>
+                        <a href="/our_products/trucks"><u>View Products</u></a>
                     </div>
                 </div>
                 <div className="col-sm mb-3" >
