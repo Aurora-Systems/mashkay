@@ -25,7 +25,7 @@ export default function OurProducts(){
                     </div>
                     <div className="secondary_background text-white p-3 rounded-bottom d-flex justify-content-between" >
                         <h5>Buses</h5>
-                        <a href="/buses"><u>View Products</u></a>
+                        <a href="/our_products/buses"><u>View Products</u></a>
                     </div>
                 </div>
            </div>
@@ -36,7 +36,7 @@ export default function OurProducts(){
                     </div>
                     <div className="secondary_background text-white p-3 rounded-bottom d-flex justify-content-between" >
                         <h5>Yellow Machines</h5>
-                        <a href="/yellow_machines"><u>View Products</u></a>
+                        <a href="/our_products/yellow_machines"><u>View Products</u></a>
                     </div>
                 </div>
                 <div className="col-sm mb-3" >
