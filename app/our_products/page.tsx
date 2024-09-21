@@ -1,5 +1,7 @@
 "use client"
+import Marquee from "react-fast-marquee";
 import { bg_img } from "../components/css_functions";
+import prodcuts from "../db/products.json"
 
 export default function OurProducts(){
     
@@ -9,6 +11,21 @@ export default function OurProducts(){
                 <h1 className="fw-bold display-1 text-black">Our <span className="secondary_text"></span>Products</h1>
             </div>
             <div className="container">
+                <div className="mb-3">
+                    <Marquee>
+                        {
+                            prodcuts.map((i,index)=>{
+                                return(
+                                    <div key={index} className="secondary_background p-2 text-white rounded me-2">
+                                        {i.product_category}
+                                    </div>
+
+                                )
+                            })
+                        }
+                      
+                    </Marquee>
+                </div>
            <div className="row">
                 <div className="col-sm mb-3" >
                     <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/163035234858169.jpg"), height: "50vh"}}>
