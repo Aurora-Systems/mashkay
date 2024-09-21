@@ -20,14 +20,15 @@ export default function OurProducts(){
                     </div>
                 </div>
                 <div className="col-sm mb-3" >
-                    <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/pexels-timcompound-575622-3608967.jpg"), height: "50vh"}}>
+                    <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/pexels-isaac-mitchell-278678383-13740080.jpg"), height: "50vh"}}>
 
                     </div>
                     <div className="secondary_background text-white p-3 rounded-bottom d-flex justify-content-between" >
-                        <h5>Buses</h5>
-                        <a href="/our_products/buses"><u>View Products</u></a>
+                        <h5>4X4</h5>
+                        <a href="/our_products/4x4"><u>View Products</u></a>
                     </div>
                 </div>
+               
            </div>
            <div className="row">
            <div className="col-sm mb-3" >
@@ -40,16 +41,14 @@ export default function OurProducts(){
                     </div>
                 </div>
                 <div className="col-sm mb-3" >
-                    <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/pexels-isaac-mitchell-278678383-13740080.jpg"), height: "50vh"}}>
+                    <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/pexels-timcompound-575622-3608967.jpg"), height: "50vh"}}>
 
                     </div>
                     <div className="secondary_background text-white p-3 rounded-bottom d-flex justify-content-between" >
-                        <h5>4X4</h5>
-                        <a href="/4x4"><u>View Products</u></a>s
+                        <h5>Buses</h5>
+                        <a href="/our_products/buses"><u>View Products</u></a>
                     </div>
                 </div>
-               
-
            </div>
            </div>
         </div>
