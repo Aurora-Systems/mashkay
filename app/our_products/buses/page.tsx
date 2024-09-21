@@ -31,7 +31,7 @@ export default function Buses(){
                     <div className="secondary_background w-100 rounded-bottom">
                             <span className="text-white fw-bold">Braking  Systems</span>
                         </div>
-                        <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/Custom-Aluminum-Dump-Truck-Lift-Hand-Car-Lift-Hydraulic-Cylinder-300-mm-Stroke-for-Farm-Equipment.webp"),height:"45vh"}}>
+                        <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/Heavy-Duty-Truck-Brake-Rotor-Semi-Trailer-Spare-Parts-Bus-Brake-Disc-for-Ivecoo-1904693-66641993.webp"),height:"45vh"}}>
                         </div>
                         <br/>
                         <p>                       
@@ -45,7 +45,7 @@ export default function Buses(){
                     <div className="secondary_background w-100 rounded-bottom">
                             <span className="text-white fw-bold">Suspension Components</span>
                         </div>
-                        <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/EV-Motor-360kw-550kw-Transmission-Amounted-Electric-Drive.webp"),height:"45vh"}}>
+                        <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/Wabco-Levelling-Valve-OEM-4640060020-Suspension-Valve-Height-Control-Valve-Air-Pneumatic-System-for-Daf1325337-Man-81436106116-Scania-339792-Bus-or-Truck-Parts.webp"),height:"45vh"}}>
                         </div>
                         <br/>
                         <p>
@@ -57,7 +57,7 @@ export default function Buses(){
                     <div className="secondary_background w-100 rounded-bottom">
                             <span className="text-white fw-bold">Body Parts</span>
                         </div>
-                        <div style={{...bg_img("https://ngratesc.sirv.com/Mashkay/Steel-Track-Chassis-Hydraulic-Undercarriage-System-0-5t-to-20t.webp"),height:"45vh"}}>
+                        <div style={{...bg_img("https://ngratesc.sirv.com/Mashkay/Bus-Accessories-Spare-Body-Parts-for-Marcopolo-G7-Auto-Mirror-with-Lamp.webp"),height:"45vh"}}>
                         </div>
                         <br/>
                         <p>
