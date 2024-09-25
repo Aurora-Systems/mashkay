@@ -93,7 +93,7 @@ export const Footer=()=>{
                 <div className="col-sm">
                     <form ref={form} onSubmit={send_email}>
                        <div className="mb-2">
-                        <span>Your Name</span>
+                        <span>Full Name</span>
                         <input 
                             type="text" 
                             name="name" 
@@ -101,15 +101,19 @@ export const Footer=()=>{
                         />
                        </div>
                        <div className="mb-2">
-                        <span>Your Phone No</span>
+                        <span>Phone No</span>
                         <input type="tel"name="phone_no"  className="form-control"/>
                        </div>
                        <div className="mb-2">
-                        <span>Your Email</span>
+                        <span>Email</span>
                         <input type="text" name="email" className="form-control"/>
                        </div>
                        <div className="mb-2">
-                        <span>Your Message</span>
+                        <span>VIN - Vehicle Identification Number</span>
+                        <input type="text" name="vin" className="form-control"/>
+                       </div>
+                       <div className="mb-2">
+                        <span>Message</span>
                         <textarea className="form-control" name="message"></textarea>
                        </div>
                        <div>
