@@ -25,7 +25,7 @@ export default function FBYF(){
                         <div className="secondary_background w-100 rounded-bottom">
                             <span className="text-white fw-bold">Body Parts & Accesories</span>
                         </div>
-                        <div style={{...bg_img("https://ngratesc.sirv.com/Mashkay/parts4x4.png"), height:"45vh"}}>
+                        <div style={{...bg_img("https://ngratesc.sirv.com/Mashkay/toyota-hilux-revo-rocco-2015-2019-full-body-kit-to-2021-invincible-3.jpg"), height:"45vh"}}>
                         </div>
                         <br/>
                         <p>
@@ -60,18 +60,8 @@ export default function FBYF(){
                         <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on 4x4 suspension parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
 
                     </div> 
-                    <div className="col-sm card mb-3">
-                    <div className="secondary_background w-100 rounded-bottom">
-                            <span className="text-white fw-bold">Braking Systems</span>
-                        </div>
-                        <div style={{...bg_img("https://ngratesc.sirv.com/Mashkay/Brake-Pad-Replacement-Commercial-Vehicle-L-Truck-Brake-Pad-Front-and-Rear-Bus-Braking-System.webp"),height:"45vh"}}>
-                        </div>
-                        <br/>
-                        <p>
-                        Strong and reliable brakes are essential for 4x4 vehicles. We offer a full range of braking system parts, including heavy-duty brake pads, rotors, calipers, and brake lines, designed to withstand the heat and stress of off-road driving.
-                        </p>
-                        <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on 4x4 braking systems?" target="_blank"><button className="btn  secondary_button text-white mb-2">Get Parts</button></a>
-                    </div>
+                    <div className="col-sm"></div>
+
                     </div>
             </div>
            
