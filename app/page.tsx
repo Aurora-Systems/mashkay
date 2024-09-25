@@ -11,8 +11,6 @@ export default function Home() {
             MASHKAY AUTOPARTS
           </h1>
           <p className="fw-bold">Your One Stop Shop For All Your  OEM  quality automotive parts</p>
-          <Link href="/our_products"><button className="btn btn-black text-white primary_button">View Our Products</button></Link>
-
         </div>
       </div>
       <div className="container_fluid mt-5 mb-5">
@@ -104,27 +102,34 @@ export default function Home() {
 
         </div>
         <div className="row text-center mb-3">
-          <div className="col-sm mb-2">
+        <div className="col-sm mb-2 order-md-2">
             <img src="https://ngratesc.sirv.com/Mashkay/truck_europe.png" className="img-fluid rounded" />
           </div>
-          <div className="col-sm mb-2">
+          <div className="col-sm mb-2 d-flex align-items-center">
+            <div className="">
+
             <h1>European</h1>
-            <p>We source genuine parts from top American manufacturers, ensuring that the components you receive are built with the ruggedness and quality American engineering is known for. These parts are designed to meet stringent standards and ensure long-lasting performance, particularly for heavy-duty trucks and 4x4 vehicles. Each part is directly sourced from the manufacturers’ headquarters in the USA, guaranteeing authenticity and compliance with original equipment manufacturer (OEM) specifications. Whether it’s for a Ford, Dodge, or Chevrolet, you can trust our parts to deliver unmatched durability and reliability.</p>
+            <p>European vehicles are known for their sophisticated engineering and precision, and we ensure that the parts we supply meet these exacting standards. Sourced directly from the headquarters of renowned European manufacturers such as Mercedes-Benz, BMW, and Volkswagen, our parts are genuine, certified, and perfectly compatible with your vehicle. Whether it’s for a high-performance engine, advanced suspension system, or premium body components, we guarantee the authenticity of each part. Our strong connections with European suppliers ensure you get the exact replacements your vehicle needs, maintaining both its performance and value.</p>
+            </div>
+
           </div>
+         
         </div>
         <div className="row text-center mb-3">
-          <div className="col-sm mb-2 d-flex align-items-center">
-            <div>
-
-            <h1>Chinese</h1>
-            <p>We source genuine parts from top American manufacturers, ensuring that the components you receive are built with the ruggedness and quality American engineering is known for. These parts are designed to meet stringent standards and ensure long-lasting performance, particularly for heavy-duty trucks and 4x4 vehicles. Each part is directly sourced from the manufacturers’ headquarters in the USA, guaranteeing authenticity and compliance with original equipment manufacturer (OEM) specifications. Whether it’s for a Ford, Dodge, or Chevrolet, you can trust our parts to deliver unmatched durability and reliability.</p>
-          
-            </div>
-            </div>
-          <div className="col-sm mb-2">
+        <div className="col-sm mb-2">
             <img src="https://ngratesc.sirv.com/Mashkay/chinese_tong.png" className="img-fluid rounded" />
 
           </div>
+          <div className="col-sm mb-2 d-flex align-items-center">
+          
+            <div>
+
+            <h1>Chinese</h1>
+            <p>China is becoming a major player in the automotive industry, with a growing number of manufacturers producing high-quality parts and vehicles. At Mashkay Autoparts, we source directly from leading Chinese manufacturers, ensuring that all parts meet the highest standards for durability and efficiency. From advanced electronics to engine components, our Chinese-sourced parts are genuine and affordable, providing excellent value for customers. Sourced straight from Chinese manufacturing hubs, these parts offer innovative solutions without compromising on quality.</p>
+          
+            </div>
+            </div>
+         
 
 
         </div>
