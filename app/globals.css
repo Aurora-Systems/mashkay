@@ -56,3 +56,16 @@ a{
   width: 200px;
   height: 200px;
 }
+
+.carousel-item {
+  text-align: center !important;
+}
+
+.carousel-item div {
+  position: absolute;
+  margin: 0;
+  color: white;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}

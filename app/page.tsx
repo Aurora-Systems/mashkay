@@ -1,35 +1,35 @@
-import Marquee from "react-fast-marquee"
 import { bg_img } from "./components/css_functions"
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
-      <div className="p-0 m-0 d-flex align-items-center justify-content-center" style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/banner_main.png"), height: "85vh" }}>
-        <div className="text-center text-white">
+      <div className="d-flex align-items-center justify-content-center" style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/banner_home.png"), height: "85vh" }}>
+
+        <div className="text-center text-white bg-dark bg-opacity-75 p-5 rounded" >
           <h1 className="display-1 fw-bold ">
             MASHKAY AUTOPARTS
           </h1>
-          <p className="fw-bold">Your One Stop Shop For All Your Autoparts</p>
-          <Link href="/our_products"><button className="btn btn-black text-white primary_button">Shop Now</button></Link>
+          <p className="fw-bold">Your One Stop Shop For All Your  OEM  quality automotive parts</p>
+          <Link href="/our_products"><button className="btn btn-black text-white primary_button">View Our Products</button></Link>
 
         </div>
       </div>
-      <div className="container_fluid mt-5 mb-5"> 
-          <div className="text-center">
-            <h2 className="fw-bold display-2 text-black">The Autopart <span className="secondary_text">Centre</span></h2>
-            <p className="p-3">Mashkay Offers the widest range of premium quality parts. There is no substitute to quality
-when it comes to premium vehicle replacement parts. That’s why Mashkay stocks
-aunthentic brands made to match OE specifications . With countrywide
-distribution we offer a consistent supply of superior quality suitable replacement
-parts delivered to you remarkably at affordable
-prices.</p>
-          </div>
-          <div className="m-5">
+      <div className="container_fluid mt-5 mb-5">
+        <div className="text-center">
+          <h2 className="fw-bold display-2 text-black">The Autopart <span className="secondary_text">Centre</span></h2>
+          <p className="p-3">Mashkay Offers the widest range of premium quality parts. There is no substitute to quality
+            when it comes to premium vehicle replacement parts. That’s why Mashkay stocks
+            aunthentic brands made to match OE specifications . With countrywide
+            distribution we offer a consistent supply of superior quality suitable replacement
+            parts delivered to you remarkably at affordable
+            prices.</p>
+        </div>
+        <div className="m-5">
           <div className="row gap-2 text-white">
             <div className="col-sm secondary_background rounded p-2 text-center mb-2">
               <h4 className="fw-bold text-center">Buses</h4>
-              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/1688647792248.jpeg")} >
+              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/different-passenger-bus-designs-image-2.avif")} >
 
               </div>
               {/* <img src="" className="img-thumbnail" alt="" /> */}
@@ -50,20 +50,20 @@ prices.</p>
               {/* <img src="https://ngratesc.sirv.com/Mashkay/2149194766.jpg" className="img-thumbnail" alt="" /> */}
 
             </div>
-          
+
             <div className="col-sm secondary_background rounded p-2 text-center mb-2" >
               <h4 className="fw-bold">4x4</h4>
-              <div className="small_img_holder rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/pexels-lenzatic-17157308.jpg")} >
+              <div className="small_img_holder rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/VW_Amarok_-_Colorado_-_Nissan_Navara_-_Ranger.jpg")} >
 
-</div>
+              </div>
               {/* <img src="https://ngratesc.sirv.com/Mashkay/pexels-lenzatic-17157308.jpg" className="img-thumbnail" alt="" /> */}
 
             </div>
           </div>
           <div className="text-center mt-3">
-          <Link href="/our_products"><button className="btn bg-black rounded text-white primary_button">Shop Now</button></Link>
+            <Link href="/our_products"><button className="btn bg-black rounded text-white primary_button">View Our Products</button></Link>
           </div>
-          </div>
+        </div>
       </div>
       <div className="container-fluid ">
         <div className="row bg-black pt-5 pb-5 ">
@@ -78,11 +78,58 @@ prices.</p>
             </p>
 
           </div>
-          <div className="col-sm border-start border-danger border-5" style={bg_img("https://ngratesc.sirv.com/Mashkay/home_two.png")}>
+          <div className="col-sm border-start border-danger border-5" style={bg_img("https://ngratesc.sirv.com/Mashkay/intricate-arrangement-automotive-engine-components-displayed-neutral-background-transparent-png-background_94628-97333.jpg")}>
 
           </div>
         </div>
       </div>
+      <div className="container p-3 text-center">
+        <h1 className="display-1 fw-bold">Genuine Parts from <span className="secondary_text">Global Manufacturers</span></h1>
+        <p>At Mashkay Autoparts, we pride ourselves on offering only genuine parts sourced directly from the world’s leading manufacturers. Whether you're looking for American-made durability, European engineering precision, or advanced Chinese innovations, we ensure that every part is authentic, high-quality, and tailored to your vehicle&apos;s needs.
+        </p>
+        <div className="row text-center">
+
+          <div className="col-sm">
+            <img src="https://ngratesc.sirv.com/Mashkay/american_ford.png" className="img-fluid rounded" />
+
+          </div>
+          <div className="col-sm d-flex align-items-center">
+            <div>
+
+              <h1>American</h1>
+              <p>We source genuine parts from top American manufacturers, ensuring that the components you receive are built with the ruggedness and quality American engineering is known for. These parts are designed to meet stringent standards and ensure long-lasting performance, particularly for heavy-duty trucks and 4x4 vehicles. Each part is directly sourced from the manufacturers’ headquarters in the USA, guaranteeing authenticity and compliance with original equipment manufacturer (OEM) specifications. Whether it’s for a Ford, Dodge, or Chevrolet, you can trust our parts to deliver unmatched durability and reliability.</p>
+            </div>
+          </div>
+
+
+        </div>
+        <div className="row text-center mb-3">
+          <div className="col-sm mb-2">
+            <img src="https://ngratesc.sirv.com/Mashkay/truck_europe.png" className="img-fluid rounded" />
+          </div>
+          <div className="col-sm mb-2">
+            <h1>European</h1>
+            <p>We source genuine parts from top American manufacturers, ensuring that the components you receive are built with the ruggedness and quality American engineering is known for. These parts are designed to meet stringent standards and ensure long-lasting performance, particularly for heavy-duty trucks and 4x4 vehicles. Each part is directly sourced from the manufacturers’ headquarters in the USA, guaranteeing authenticity and compliance with original equipment manufacturer (OEM) specifications. Whether it’s for a Ford, Dodge, or Chevrolet, you can trust our parts to deliver unmatched durability and reliability.</p>
+          </div>
+        </div>
+        <div className="row text-center mb-3">
+          <div className="col-sm mb-2 d-flex align-items-center">
+            <div>
+
+            <h1>Chinese</h1>
+            <p>We source genuine parts from top American manufacturers, ensuring that the components you receive are built with the ruggedness and quality American engineering is known for. These parts are designed to meet stringent standards and ensure long-lasting performance, particularly for heavy-duty trucks and 4x4 vehicles. Each part is directly sourced from the manufacturers’ headquarters in the USA, guaranteeing authenticity and compliance with original equipment manufacturer (OEM) specifications. Whether it’s for a Ford, Dodge, or Chevrolet, you can trust our parts to deliver unmatched durability and reliability.</p>
+          
+            </div>
+            </div>
+          <div className="col-sm mb-2">
+            <img src="https://ngratesc.sirv.com/Mashkay/chinese_tong.png" className="img-fluid rounded" />
+
+          </div>
+
+
+        </div>
+      </div>
+
       <div className="text-center container-fluid">
         {/* <h2 className="display-2 fw-bold text-black mb-5">In <span className="secondary_text">Stock</span></h2> */}
         {/* <Marquee>
@@ -179,15 +226,13 @@ prices.</p>
             </div>
           </div>
           </Marquee> */}
-          <div>
-            <img src="https://ngratesc.sirv.com/Mashkay/instock_banner.png" className="img-fluid"/>
-          </div>
+
       </div>
       <div className="bg-black text-center mt-4">
         <h2 className="display-2 fw-bold text-white">Our Product <span className="secondary_text">Partners</span></h2>
       </div>
       <div className="text-center">
-      <img src="https://ngratesc.sirv.com/Mashkay/products.png" className="img-fluid"/>
+        <img src="https://ngratesc.sirv.com/Mashkay/products.png" className="img-fluid" />
 
       </div>
     </main>

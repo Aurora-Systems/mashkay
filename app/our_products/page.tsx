@@ -19,11 +19,9 @@ export default function OurProducts(){
                                     <div key={index} className="secondary_background p-2 text-white rounded me-2">
                                         {i.product_category}
                                     </div>
-
                                 )
                             })
                         }
-                      
                     </Marquee>
                 </div>
            <div className="row">
