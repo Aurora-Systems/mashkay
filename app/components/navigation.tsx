@@ -126,25 +126,28 @@ export const Footer=()=>{
            
             <div className="bg-black text-white p-3 ">
                 <div className="row d-flex flex-row align-items-centerjustify-content-center">
-                    <div className="col-sm d-flex flex-column text-center">
-                        <span className="fw-bold">Contact Details</span>
+                    <div className="col-sm d-flex flex-column text-center align-items-center justify-content-center">
+                        <h3 className="fw-bold">Contact Details</h3>
                         <span>1 Edison Crescent, Harare , Zimbabwe</span>
                         <span>sales@mashkay.co.zw</span>
                         <span>{phone_no_formatted}</span>
                     </div>
-                    <div className="col-sm text-center d-flex flex-column ">
-                        <span className="fw-bold">Pages</span>
+                    <div className="col-sm text-center d-flex flex-column align-items-center justify-content-center">
+                        <h3 className="fw-bold">Pages</h3>
                         <Link href={"/our_products"}>Our Products</Link>
                         <Link href={"/about_us"}>About Us</Link>
                         <Link href={"/blog"}>Blog</Link>
 
                     </div>
                     <div className="col-sm d-flex flex-column align-items-center justify-content-center">
-                           <span className="fw-bold">Socials</span>
+                           <h3 className="fw-bold">Socials</h3>
                            <Link target="_blank" href={"https://www.instagram.com/mashkayautoparts/?hl=en"}>Instagram</Link>
                            <Link target="_blank" href={"https://www.facebook.com/profile.php?id=61557083832788&mibextid=ZbWKwL"}>Facebook</Link>
                            {/* <Link href={""}>Linkedin</Link> */}
 
+                    </div>
+                    <div className="col-sm">
+                    <iframe src="https://mashkay.substack.com/embed" className="rounded" width="480" height="320" style={{border:"1px solid #EEE", background:"white"}} frameBorder="0" scrolling="no"></iframe>
                     </div>
                    
                 </div>

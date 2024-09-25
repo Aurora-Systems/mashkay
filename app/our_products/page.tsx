@@ -35,7 +35,7 @@ export default function OurProducts(){
                     </div>
                 </div>
                 <div className="col-sm mb-3" >
-                    <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/pexels-isaac-mitchell-278678383-13740080.jpg"), height: "50vh"}}>
+                    <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/front-exterior-66e16753854b2.jpg"), height: "50vh"}}>
 
                     </div>
                     <div className="secondary_background text-white p-3 rounded-bottom d-flex justify-content-between" >
@@ -56,7 +56,7 @@ export default function OurProducts(){
                     </div>
                 </div>
                 <div className="col-sm mb-3" >
-                    <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/pexels-timcompound-575622-3608967.jpg"), height: "50vh"}}>
+                    <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/different-passenger-bus-designs-image-2.avif"), height: "50vh"}}>
 
                     </div>
                     <div className="secondary_background text-white p-3 rounded-bottom d-flex justify-content-between" >
