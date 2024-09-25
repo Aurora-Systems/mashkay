@@ -53,7 +53,8 @@ export default function Trucks(){
                             <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on  truck suspension parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
 
                         </div> 
-                        <div className="col-sm card mb-3">
+                        <div className="col-sm"></div>
+                        {/* <div className="col-sm card mb-3">
                         <div className="secondary_background w-100 rounded-bottom">
                                 <span className="text-white fw-bold">Truck Braking Systems</span>
                             </div>
@@ -64,7 +65,7 @@ export default function Trucks(){
                             Safety is paramount, and we offer a full range of brake pads, discs, calipers, and hoses. Our products are designed for heavy-duty trucks, providing reliable stopping power even under the most demanding loads.
                             </p>
                             <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on truck braking systems?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
-                        </div>
+                        </div> */}
                         </div><div className="row">
                       
                         
