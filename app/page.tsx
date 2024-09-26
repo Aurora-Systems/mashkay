@@ -83,7 +83,7 @@ export default function Home() {
       </div>
       <div className="container p-3 text-center">
         <h1 className="display-1 fw-bold">Genuine Parts from <span className="secondary_text">Global Manufacturers</span></h1>
-        <p>At Mashkay Autoparts, we pride ourselves on offering only genuine parts sourced directly from the world’s leading manufacturers. Whether you're looking for American-made durability, European engineering precision, or advanced Chinese innovations, we ensure that every part is authentic, high-quality, and tailored to your vehicle&apos;s needs.
+        <p>At Mashkay Autoparts, we pride ourselves on offering only genuine parts sourced directly from the world’s leading manufacturers. Whether you&apos;re looking for American-made durability, European engineering precision, or advanced Chinese innovations, we ensure that every part is authentic, high-quality, and tailored to your vehicle&apos;s needs.
         </p>
         <div className="row text-center">
 
