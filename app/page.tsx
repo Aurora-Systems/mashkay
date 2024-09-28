@@ -15,7 +15,7 @@ export default function Home() {
       </div>
       <div className="container_fluid mt-5 mb-5">
         <div className="text-center">
-          <h2 className="fw-bold display-2 text-black">The Autopart <span className="secondary_text">Centre</span></h2>
+          {/* <h2 className="fw-bold display-2 text-black">The Autopart <span className="secondary_text">Centre</span></h2> */}
           <p className="p-3">Mashkay Offers the widest range of premium quality parts. There is no substitute to quality
             when it comes to premium vehicle replacement parts. That’s why Mashkay stocks
             aunthentic brands made to match OE specifications . With countrywide
@@ -81,7 +81,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container p-3 text-center">
+      {/* <div className="container p-3 text-center">
         <h1 className="display-1 fw-bold">Genuine Parts from <span className="secondary_text">Global Manufacturers</span></h1>
         <p>At Mashkay Autoparts, we pride ourselves on offering only genuine parts sourced directly from the world’s leading manufacturers. Whether you&apos;re looking for American-made durability, European engineering precision, or advanced Chinese innovations, we ensure that every part is authentic, high-quality, and tailored to your vehicle&apos;s needs.
         </p>
@@ -133,7 +133,7 @@ export default function Home() {
 
 
         </div>
-      </div>
+      </div> */}
 
       <div className="text-center container-fluid">
         {/* <h2 className="display-2 fw-bold text-black mb-5">In <span className="secondary_text">Stock</span></h2> */}
