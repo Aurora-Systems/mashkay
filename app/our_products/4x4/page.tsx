@@ -49,7 +49,7 @@ export default function FBYF(){
                     </div><div className="row gap-2">
                     <div className="col-sm card mb-3">
                     <div className="secondary_background w-100 rounded-bottom">
-                            <span className="text-white fw-bold">Suspension</span>
+                            <span className="text-white fw-bold">Suspension Parts</span>
                         </div>
                         <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/sus4.png"),height:"45vh"}}>
                         </div>
@@ -68,9 +68,9 @@ export default function FBYF(){
                         </div>
                         <br/>
                         <p>
-                        Power through any adventure with our robust electrical components for 4x4 vehicles. Whether it's alternators, starters, ignition systems, or wiring harnesses, our parts are engineered to perform in the toughest off-road conditions. Designed for durability and reliability, these components ensure your 4x4 is ready for rugged terrains, providing consistent power and performance when you need it most.            
+                        Power through any adventure with our robust electrical components for 4x4 vehicles. Whether it&apos;s alternators, starters, ignition systems, or wiring harnesses, our parts are engineered to perform in the toughest off-road conditions. Designed for durability and reliability, these components ensure your 4x4 is ready for rugged terrains, providing consistent power and performance when you need it most.            
                         </p>
-                        <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on 4x4 suspension parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
+                        <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on 4x4 electrical parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
 
                     </div> 
                   
