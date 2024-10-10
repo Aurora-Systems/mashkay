@@ -29,7 +29,7 @@ export default function FBYF(){
                         </div>
                         <br/>
                         <p>
-                        Whether you&apos;re upgrading or replacing, we offer a wide variety of body parts to keep your 4x4 looking sharp and functional. From fenders, hoods, and bumpers to doors and grilles, our body parts ensure a perfect fit and lasting durability. Additionally, we offer a range of accessories such as roof racks, fender flares, side steps, and mud flaps, giving you the ability to personalize and protect your 4x4 for any adventure. Our body accessories not only enhance the appearance but also provide added utility and protection for tough terrains.
+                            We offer a wide variety of body parts to keep your 4x4 looking sharp and functional. From fenders, hoods, and bumpers to doors and grilles, our body parts ensure a perfect fit and lasting durability. Additionally, we offer a range of accessories such as roof racks, fender flares, side steps, and mud flaps, giving you the ability to personalize and protect your 4x4 for any adventure. 
                         </p>
                         <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on your 4x4 Body parts and accesories?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
                     </div>
@@ -60,7 +60,20 @@ export default function FBYF(){
                         <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on 4x4 suspension parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
 
                     </div> 
-                    <div className="col-sm"></div>
+                    <div className="col-sm card mb-3">
+                    <div className="secondary_background w-100 rounded-bottom">
+                            <span className="text-white fw-bold">Electrical Parts</span>
+                        </div>
+                        <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/4x4el.png"),height:"45vh"}}>
+                        </div>
+                        <br/>
+                        <p>
+                        Power through any adventure with our robust electrical components for 4x4 vehicles. Whether it's alternators, starters, ignition systems, or wiring harnesses, our parts are engineered to perform in the toughest off-road conditions. Designed for durability and reliability, these components ensure your 4x4 is ready for rugged terrains, providing consistent power and performance when you need it most.            
+                        </p>
+                        <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on 4x4 suspension parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
+
+                    </div> 
+                  
 
                     </div>
             </div>
