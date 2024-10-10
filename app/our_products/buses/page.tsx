@@ -20,7 +20,7 @@ export default function Buses() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Body Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/Bus-Accessories-Spare-Body-Parts-for-Marcopolo-G7-Auto-Mirror-with-Lamp.webp"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/bus_parts_1.png"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>
@@ -32,12 +32,12 @@ export default function Buses() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Engine Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/truck.png"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/busengine.png"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>
                                     Ensure your bus runs smoothly and efficiently with our selection of engine components. From pistons and valves to oil pumps and fuel injectors, our parts are designed for high-mileage buses and offer the durability needed for extended use.     </p>
-                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on bus engine parts?" target="_blank"><button className="btn secondary_background text-white mb-2">Get Parts</button></a>
+                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on bus engine parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
                             </div>
                         
                         </div><div className="row gap-2">
@@ -45,7 +45,7 @@ export default function Buses() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Suspension Components</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/Wabco-Levelling-Valve-OEM-4640060020-Suspension-Valve-Height-Control-Valve-Air-Pneumatic-System-for-Daf1325337-Man-81436106116-Scania-339792-Bus-or-Truck-Parts.webp"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/bus_sus.png"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>
@@ -53,9 +53,19 @@ export default function Buses() {
                                 <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on bus suspension  parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
 
                             </div>
-                            <div className="col-sm">
-                                
+                            <div className="col-sm card mb-3">
+                                <div className="secondary_background w-100 rounded-bottom">
+                                    <span className="text-white fw-bold">Electrical Parts</span>
+                                </div>
+                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/busel.png"), height: "45vh" }}>
+                                </div>
+                                <br />
+                                <p>
+                                Maintain safe and reliable bus operations with our premium electrical components. We supply everything from alternators and starters to lighting systems, wiring, and control modules, ensuring that your buses remain operational and efficient. Our electrical parts are built to handle the high demands of daily transit, providing consistent power.                   </p>
+                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on bus suspension  parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
+
                             </div>
+                            
                          
                         </div>
                     </div>
