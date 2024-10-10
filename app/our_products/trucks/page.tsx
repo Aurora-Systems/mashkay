@@ -63,7 +63,7 @@ export default function Trucks() {
                                 <p>       
                                      From alternators and starters to batteries, wiring harnesses, and fuses, we provide everything you need to ensure smooth electrical operation. Our parts are designed to withstand tough road conditions and heavy usage, offering long-lasting performance and reliability for all types of trucks.
                                 </p>
-                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on  truck suspension parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
+                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on  truck electrical parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
 
                             </div>
                         </div><div className="row">

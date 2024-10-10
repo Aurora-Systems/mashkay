@@ -84,7 +84,7 @@ export default function YellowMachines() {
                                 <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on your yewllow machine engine parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
                             </div>
                             <div className="col-sm card mb-2">
-                                <div className="secondary_background w-100 rounded-bottom">
+                                <div className="secondary_background w-100 rounded-bottom">\;
                                     <span className="text-white text-center fw-bold">Electrical Parts</span>
                                 </div>
                                 <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/cat_sensors.png"), height: "45vh" }}>
@@ -93,7 +93,7 @@ export default function YellowMachines() {
                                 <p>
                                 Power your yellow machines with reliable electrical components designed for optimal performance. We offer alternators, starters, sensors, wiring harnesses, and more, all engineered to handle the demanding electrical needs of heavy machinery. Keep your equipment operational in all conditions with our durable and high-performance electrical solutions.
                                 </p>
-                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on yellow machine hydraulic parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
+                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on yellow machine electric parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
 
                             </div>
                         </div>

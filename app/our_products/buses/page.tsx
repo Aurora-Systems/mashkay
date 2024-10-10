@@ -62,7 +62,7 @@ export default function Buses() {
                                 <br />
                                 <p>
                                 Maintain safe and reliable bus operations with our premium electrical components. We supply everything from alternators and starters to lighting systems, wiring, and control modules, ensuring that your buses remain operational and efficient. Our electrical parts are built to handle the high demands of daily transit, providing consistent power.                   </p>
-                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on bus suspension  parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
+                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on bus electrical  parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
 
                             </div>
                             
