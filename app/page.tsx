@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <div className="d-flex align-items-center justify-content-center" style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/banner_home.png"), height: "85vh" }}>
+      <div className="d-flex align-items-center justify-content-center" style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/fg.png"), height: "85vh" }}>
 
         <div className="text-center text-white bg-dark bg-opacity-75 p-5 rounded" >
           <h1 className="display-1 fw-bold ">
