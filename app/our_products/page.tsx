@@ -12,7 +12,7 @@ export default function OurProducts(){
             </div>
             <div className="container">
                 <div className="mb-3">
-                    <Marquee>
+                    {/* <Marquee>
                         {
                             prodcuts.map((i,index)=>{
                                 return(
@@ -22,7 +22,7 @@ export default function OurProducts(){
                                 )
                             })
                         }
-                    </Marquee>
+                    </Marquee> */}
                 </div>
            <div className="row">
                 <div className="col-sm mb-3" >
