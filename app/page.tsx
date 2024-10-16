@@ -76,9 +76,7 @@ export default function Home() {
             </p>
 
           </div>
-          <div className="col-sm border-start border-danger border-5" style={bg_img("https://ngratesc.sirv.com/Mashkay/intricate-arrangement-automotive-engine-components-displayed-neutral-background-transparent-png-background_94628-97333.jpg")}>
-
-          </div>
+        
         </div>
       </div>
       {/* <div className="container p-3 text-center">
