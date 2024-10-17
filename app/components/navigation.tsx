@@ -147,7 +147,7 @@ export const Footer=()=>{
 
                     </div>
                     <div className="col-sm">
-                    <iframe src="https://mashkay.substack.com/embed" className="rounded" style={{border:"1px solid #EEE", background:"white"}} frameBorder="0" scrolling="no"></iframe>
+                    <iframe src="https://mashkay.substack.com/embed" className="rounded w-100" style={{border:"1px solid #EEE", background:"white"}} frameBorder="0" scrolling="no"></iframe>
                     </div>
                    
                 </div>

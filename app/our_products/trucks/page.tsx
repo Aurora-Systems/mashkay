@@ -28,7 +28,7 @@ export default function Trucks() {
                     </div>
                 </div>
                 <div className=" vh-100">
-                    <embed className="w-100 vh-100 h-100" src={selected_pdf}></embed>
+                    <object className="w-100 vh-100 h-100" data={selected_pdf}></object>
                 </div>
             </div>
 
