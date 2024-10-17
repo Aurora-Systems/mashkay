@@ -1,0 +1,27 @@
+[
+    {
+        "imag": "https://ngratesc.sirv.com/Mashkay/DAF_truck_fuel_consumption-1024x683.jpg",
+        "brands": "DAF · MERCEDES BENZ · IVECO · SCANIA · VOLVO · MAN",
+        "link": "/our_products/trucks", 
+        "category": "Trucks"
+    },
+    {
+        "imag": "https://ngratesc.sirv.com/Mashkay/a-volkswagen-amarok-esta-de-volta-misturando-o-dna-da-ford-ranger-mais-luxo-e-preco-mais-alto.jpeg",
+        "brands": "TOYOTA · MERCEDES BENZ · FORD · VW · VOLVO · ISUZU · MAZDA",
+        "link": "/our_products/trucks", 
+        "category": "4X4s"
+    },
+    {
+        "imag": "https://ngratesc.sirv.com/Mashkay/2022-Mercedes-Benx-Tourrider-16.jpg",
+        "brands": "MERCEDES BENZ · IVECO · SCANIA · VOLVO · YUTONG · ZHONGTONG",
+        "link": "/our_products/buses", 
+        "category": "Buses"
+    },
+    {
+        "imag": "https://ngratesc.sirv.com/Mashkay/construction-equipment-grader-Volvo-G976---1712963449298649032_big--24041302104869182500.jpg",
+        "brands": "CAT · KOMATSU · JCB · JOHN DEERE · HITACHI· XCMG",
+        "link": "/our_products/trucks", 
+        "category": "Yellow Machines"
+    }
+    
+]

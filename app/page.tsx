@@ -1,16 +1,47 @@
+"use client"
+import { useState } from "react";
 import { bg_img } from "./components/css_functions"
 import Link from "next/link";
+import slide from "./db/slide_show.json"
+
 
 export default function Home() {
+  const [slide_data,set_slide_data] = useState(slide)
+  const [selected_slide,set_selected_slide] = useState<number>(0)
+
+  const handle_slide=(direction: "forward"|"backward")=>{
+    const slide_length = slide_data.length
+    if(direction==="forward"){
+      const added_side = selected_slide+1
+      if(added_side>=slide_length){
+        set_selected_slide(0)
+      }else{
+        set_selected_slide(added_side)
+      }
+    }else{
+      const minus_side = selected_slide-1
+      if(minus_side<0){
+        set_selected_slide(slide_length-1)
+      }else{
+        set_selected_slide(minus_side)
+      }
+    }
+  }
+  
   return (
     <main>
-      <div className="d-flex align-items-center justify-content-center" style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/fg.png"), height: "85vh" }}>
-
-        <div className="text-center text-white bg-dark bg-opacity-75 p-5 rounded" >
-          <h1 className="display-1 fw-bold ">
-            MASHKAY AUTOPARTS
-          </h1>
-          <p className="fw-bold">Your One Stop Shop For All Your  OEM  quality automotive parts</p>
+      <div className="vh-100 d-flex justify-content-between align-items-center" style={bg_img(slide_data[selected_slide].imag)}>
+        <div>
+        <button className="text-white btn btn-none " onClick={()=>handle_slide("backward")}><i className="bi bi-caret-left display-5"></i></button>
+        </div>
+        <div className="bg-dark bg-opacity-75 text-center p-5 rounded w-md-50 text-white"  >
+          <h1 className="fw-bold text-white">Mashkay Autoparts</h1>
+          <p>Your One Stop Shop For All Your OEM quality automotive parts</p>
+          <p>{slide_data[selected_slide].brands}</p>
+          <Link href={slide_data[selected_slide].link}><button className="btn secondary_button">View {slide_data[selected_slide].category} Catalogue</button></Link>
+        </div>
+        <div>
+        <button className="text-white btn btn-none" onClick={()=>handle_slide("forward")}><i className="bi bi-caret-right display-5"></i></button>
         </div>
       </div>
       <div className="container_fluid mt-5 mb-5">
