@@ -1,6 +1,7 @@
-import { bg_img } from "@/app/components/css_functions";
-
+"use client"
+import { useState } from "react";
 export default function Trucks() {
+    const [selected_pdf,set_selected_pdf] = useState<string>("https://ngratesc.sirv.com/Mashkay/DAF-Catalogue-pdf%20(1).pdf")
     return (
         <div className="mt-5">
 
@@ -12,66 +13,22 @@ export default function Trucks() {
                         <p>
                             At Mashkay Autoparts, we offer a comprehensive range of truck parts to ensure your vehicles are running smoothly and efficiently. Whether you’re maintaining a fleet or a single vehicle, we stock high-quality, durable components designed for long-haul performance. Our truck parts selection covers various brands and models, guaranteeing compatibility and reliability.
                         </p>
-                        <p className="fw-bold">
-                            Our truck parts range includes
-                        </p>
-                        <div className="row gap-2">
-                            <div className="col-sm card mb-2">
-                                <div className="secondary_background w-100 rounded-bottom">
-                                    <span className="text-white fw-bold">Truck Engine Parts</span>
-                                </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/X15N_filterupdate.png"), height: "45vh" }}>
-                                </div>
-                                <br />
-                                <p>
-                                    From pistons and crankshafts to fuel injectors and timing belts, we have everything you need to keep your truck’s engine in peak condition. We offer parts for a variety of diesel engines, ensuring maximum performance and fuel efficiency.
-                                </p>
-                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on truck engine parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
-                            </div>
-                            <div className="col-sm card mb-2">
-                                <div className="secondary_background w-100 rounded-bottom">
-                                    <span className="text-white fw-bold">Truck Body Parts</span>
-                                </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/truck_parts.png"), height: "45vh" }}>
-                                </div>
-                                <br />
-                                <p>                            Need to replace worn-out or damaged truck body components? We supply everything from bumpers and hoods to mirrors and doors. Each part is sourced from reputable manufacturers to ensure durability and a perfect fit for your truck model.
-                                </p>
-                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on your truck body parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
 
-                            </div>
-                        </div><div className="row gap-2">
-                            <div className="col-sm card mb-3">
-                                <div className="secondary_background w-100 rounded-bottom">
-                                    <span className="text-white fw-bold">Truck Suspension & Trailer Parts</span>
-                                </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/trailer_sus.png"), height: "45vh" }}>
-                                </div>
-                                <br />
-                                <p>                         Our suspension systems and components are built to handle the toughest conditions. Whether you&apos;re driving on rough terrain or heavy-duty roads, our range of shocks, springs, control arms, and bushings ensures your truck remains stable and secure.
-                                </p>
-                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on  truck suspension parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
-
-                            </div>
-                            <div className="col-sm card mb-3">
-                                <div className="secondary_background w-100 rounded-bottom">
-                                    <span className="text-white fw-bold">Truck Electrical Parts</span>
-                                </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/man-engines-sustainability-mtb-batterien4-4x3_width_800_height_600.jpg"), height: "45vh" }}>
-                                </div>
-                                <br />
-                                <p>       
-                                     From alternators and starters to batteries, wiring harnesses, and fuses, we provide everything you need to ensure smooth electrical operation. Our parts are designed to withstand tough road conditions and heavy usage, offering long-lasting performance and reliability for all types of trucks.
-                                </p>
-                                <a href="https://wa.me/263782255545?text=Good day, could i get more infomartion on  truck electrical parts?" target="_blank"><button className="btn secondary_button text-white mb-2">Get Parts</button></a>
-
-                            </div>
-                        </div><div className="row">
-
-
+                        <div className="d-flex flex-row justify-content-center mb-3">
+                            <span>View Catalogue for &nbsp;</span>
+                            <select className=" border rounded" onChange={(e)=>set_selected_pdf(e.target.value)}>
+                                <option value="https://ngratesc.sirv.com/Mashkay/DAF-Catalogue-pdf%20(1).pdf">DAF</option>
+                                <option value="https://ngratesc.sirv.com/Mashkay/Volvo-Catalogue-pdf.pdf">Volvo</option>
+                                <option value="https://ngratesc.sirv.com/Mashkay/Iveco-Catalogue-Combined_compressed.pdf%20(1).pdf">IVECO</option>
+                                <option value="https://ngratesc.sirv.com/Mashkay/Scania-Catalogue-Combined_compressed.pdf%20(1).pdf">Scania</option>
+                                <option value="https://ngratesc.sirv.com/Mashkay/Mercedes-Catalogue-Combined_compressed.pdf%20(1).pdf">Mercedes Benz</option>
+                                <option value="https://ngratesc.sirv.com/Mashkay/MAN-Catalogue-pdf%20(1)_1.pdf">MAN</option>
+                            </select>
                         </div>
                     </div>
-
+                </div>
+                <div className=" vh-100">
+                    <embed className="w-100 vh-100 h-100" src={selected_pdf}></embed>
                 </div>
             </div>
 
