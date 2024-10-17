@@ -27,8 +27,12 @@ export default function Trucks() {
                         </div>
                     </div>
                 </div>
+                <div className="mb-2 text-center">
+                <a href={selected_pdf} download={true}><button className="btn secondary_button">Download</button></a>
+
+                </div>
                 <div className=" vh-100">
-                    <object className="w-100 vh-100 h-100" data={selected_pdf}></object>
+                    <iframe className="w-100 vh-100 h-100" src={selected_pdf}></iframe>
                 </div>
             </div>
 
