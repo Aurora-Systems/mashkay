@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         <div className="bg-dark bg-opacity-75 text-center p-5 rounded w-md-50 text-white"  >
           <h1 className="fw-bold text-white">Mashkay Autoparts</h1>
-          <p>Your One Stop Shop For All Your GEnuine Quality Automotive Parts</p>
+          <p>Your One Stop Shop For All Your Genuine Quality Automotive Parts</p>
           <p>{slide_data[selected_slide].brands}</p>
           <Link href={slide_data[selected_slide].link}><button className="btn secondary_button">View {slide_data[selected_slide].category} Catalogue</button></Link>
         </div>
