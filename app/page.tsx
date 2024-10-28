@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { bg_img } from "./components/css_functions"
 import Link from "next/link";
 import slide from "./db/slide_show.json"
@@ -8,6 +8,7 @@ import slide from "./db/slide_show.json"
 export default function Home() {
   const [slide_data,set_slide_data] = useState(slide)
   const [selected_slide,set_selected_slide] = useState<number>(0)
+  const [pause,set_pause] = useState<boolean>(false)
 
   const handle_slide=(direction: "forward"|"backward")=>{
     const slide_length = slide_data.length
@@ -27,12 +28,23 @@ export default function Home() {
       }
     }
   }
+
+  useEffect(()=>{
+    if(!pause){
+    setTimeout(()=>handle_slide("forward"), 5000)
+    }
+
+  },[selected_slide])
   
   return (
     <main>
       <div className="vh-100 d-flex justify-content-between align-items-center" style={bg_img(slide_data[selected_slide].imag)}>
         <div>
-        <button className="text-white btn btn-none " onClick={()=>handle_slide("backward")}><i className="bi bi-caret-left display-5"></i></button>
+        <button className="text-white btn btn-none " onClick={()=>{
+          set_pause(true)
+          handle_slide("backward")
+          }
+        }><i className="bi bi-caret-left display-5"></i></button>
         </div>
         <div className="bg-dark bg-opacity-75 text-center p-5 rounded w-md-50 text-white"  >
           <h1 className="fw-bold text-white">Mashkay Autoparts</h1>
@@ -41,7 +53,10 @@ export default function Home() {
           <Link href={slide_data[selected_slide].link}><button className="btn secondary_button">View {slide_data[selected_slide].category} Catalogue</button></Link>
         </div>
         <div>
-        <button className="text-white btn btn-none" onClick={()=>handle_slide("forward")}><i className="bi bi-caret-right display-5"></i></button>
+        <button className="text-white btn btn-none" onClick={()=>{
+                    set_pause(true)
+          handle_slide("forward")
+          }}><i className="bi bi-caret-right display-5"></i></button>
         </div>
       </div>
       <div className="container_fluid mt-5 mb-5">
