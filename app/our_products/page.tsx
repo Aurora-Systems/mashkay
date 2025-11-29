@@ -26,7 +26,7 @@ export default function OurProducts(){
                 </div>
            <div className="row">
                 <div className="col-sm mb-3" >
-                    <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/163035234858169.jpg"), height: "50vh"}}>
+                    <div className="rounded-top" style={{...bg_img("https://cdn.clipond.com/Mashkay/163035234858169.jpg"), height: "50vh"}}>
 
                     </div>
                     <div className="secondary_background text-white p-3 rounded-bottom d-flex justify-content-between" >
@@ -35,7 +35,7 @@ export default function OurProducts(){
                     </div>
                 </div>
                 <div className="col-sm mb-3" >
-                    <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/front-exterior-66e16753854b2.jpg"), height: "50vh"}}>
+                    <div className="rounded-top" style={{...bg_img("https://cdn.clipond.com/Mashkay/front-exterior-66e16753854b2.jpg"), height: "50vh"}}>
 
                     </div>
                     <div className="secondary_background text-white p-3 rounded-bottom d-flex justify-content-between" >
@@ -47,7 +47,7 @@ export default function OurProducts(){
            </div>
            <div className="row">
            <div className="col-sm mb-3" >
-                    <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/CM20210126-5d492-16f0e.jpeg"), height: "50vh"}}>
+                    <div className="rounded-top" style={{...bg_img("https://cdn.clipond.com/Mashkay/CM20210126-5d492-16f0e.jpeg"), height: "50vh"}}>
 
                     </div>
                     <div className="secondary_background text-white p-3 rounded-bottom d-flex justify-content-between" >
@@ -56,7 +56,7 @@ export default function OurProducts(){
                     </div>
                 </div>
                 <div className="col-sm mb-3" >
-                    <div className="rounded-top" style={{...bg_img("https://ngratesc.sirv.com/Mashkay/different-passenger-bus-designs-image-2.avif"), height: "50vh"}}>
+                    <div className="rounded-top" style={{...bg_img("https://cdn.clipond.com/Mashkay/different-passenger-bus-designs-image-2.avif"), height: "50vh"}}>
 
                     </div>
                     <div className="secondary_background text-white p-3 rounded-bottom d-flex justify-content-between" >
