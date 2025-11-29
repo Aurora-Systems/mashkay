@@ -1,24 +1,24 @@
 [
     {
-        "imag": "https://ngratesc.sirv.com/Mashkay/trucks.jpg",
+        "imag": "https://cdn.clipond.com/Mashkay/trucks.jpg",
         "brands": "DAF · MERCEDES BENZ · IVECO · SCANIA · VOLVO · MAN · SHACMAN · HALL · RENAULT · INTERNATIONAL FREIGHTLINER",
         "link": "/our_products/trucks", 
         "category": "Trucks"
     },
     {
-        "imag": "https://ngratesc.sirv.com/Mashkay/a-volkswagen-amarok-esta-de-volta-misturando-o-dna-da-ford-ranger-mais-luxo-e-preco-mais-alto.jpeg",
+        "imag": "https://cdn.clipond.com/Mashkay/a-volkswagen-amarok-esta-de-volta-misturando-o-dna-da-ford-ranger-mais-luxo-e-preco-mais-alto.jpeg",
         "brands": "TOYOTA · MERCEDES BENZ · FORD · VW · VOLVO · ISUZU · MAZDA",
         "link": "/our_products/4x4", 
         "category": "4X4s"
     },
     {
-        "imag": "https://ngratesc.sirv.com/Mashkay/1920_p-bus-eot-lionscitye-family-01.jpg",
+        "imag": "https://cdn.clipond.com/Mashkay/1920_p-bus-eot-lionscitye-family-01.jpg",
         "brands": "MERCEDES BENZ · IVECO · SCANIA · VOLVO · YUTONG · ZHONGTONG",
         "link": "/our_products/buses", 
         "category": "Buses"
     },
     {
-        "imag": "https://ngratesc.sirv.com/Mashkay/construction-equipment-grader-Volvo-G976---1712963449298649032_big--24041302104869182500.jpg",
+        "imag": "https://cdn.clipond.com/Mashkay/construction-equipment-grader-Volvo-G976---1712963449298649032_big--24041302104869182500.jpg",
         "brands": "CAT · KOMATSU · JCB · JOHN DEERE · HITACHI· XCMG",
         "link": "/our_products/yellow_machines", 
         "category": "Yellow Machines"
