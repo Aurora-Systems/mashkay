@@ -29,7 +29,7 @@ export const NavBar=()=>{
                             <img 
                                 width={120} 
                                 height={0} 
-                                src="https://ngratesc.sirv.com/Mashkay/logo.png" 
+                                src="https://cdn.clipond.com/Mashkay/logo.png" 
                                 className="img-fluid"
                                 alt="Mashkay logo"
                             />
