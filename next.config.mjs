@@ -4,7 +4,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: "https",
-                hostname: "cdn.clipond.com,
+                hostname: "cdn.clipond.com",
                 port: '',
                 pathname: "/**"
             }
