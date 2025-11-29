@@ -20,7 +20,7 @@ export default function Trucks() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Truck Engine Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/X15N_filterupdate.png"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/X15N_filterupdate.png"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>
@@ -32,7 +32,7 @@ export default function Trucks() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Truck Body Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/truck_parts.png"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/truck_parts.png"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>                            Need to replace worn-out or damaged truck body components? We supply everything from bumpers and hoods to mirrors and doors. Each part is sourced from reputable manufacturers to ensure durability and a perfect fit for your truck model.
@@ -45,7 +45,7 @@ export default function Trucks() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Truck Suspension & Trailer Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/trailer_sus.png"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/trailer_sus.png"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>                         Our suspension systems and components are built to handle the toughest conditions. Whether you&apos;re driving on rough terrain or heavy-duty roads, our range of shocks, springs, control arms, and bushings ensures your truck remains stable and secure.
@@ -57,7 +57,7 @@ export default function Trucks() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Truck Electrical Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/man-engines-sustainability-mtb-batterien4-4x3_width_800_height_600.jpg"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/man-engines-sustainability-mtb-batterien4-4x3_width_800_height_600.jpg"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>       
@@ -82,7 +82,7 @@ export default function Trucks() {
 // "use client"
 // import { useState } from "react";
 // export default function Trucks() {
-//     const [selected_pdf,set_selected_pdf] = useState<string>("https://ngratesc.sirv.com/Mashkay/DAF-Catalogue-pdf%20(1).pdf")
+//     const [selected_pdf,set_selected_pdf] = useState<string>("https://cdn.clipond.com/Mashkay/DAF-Catalogue-pdf%20(1).pdf")
 //     return (
 //         <div className="mt-5">
 
@@ -98,12 +98,12 @@ export default function Trucks() {
 //                         <div className="d-flex flex-row justify-content-center mb-3">
 //                             <span>View Catalogue for &nbsp;</span>
 //                             <select className=" border rounded" onChange={(e)=>set_selected_pdf(e.target.value)}>
-//                                 <option value="https://ngratesc.sirv.com/Mashkay/DAF-Catalogue-pdf%20(1).pdf">DAF</option>
-//                                 <option value="https://ngratesc.sirv.com/Mashkay/Volvo-Catalogue-pdf.pdf">Volvo</option>
-//                                 <option value="https://ngratesc.sirv.com/Mashkay/Iveco-Catalogue-Combined_compressed.pdf%20(1).pdf">IVECO</option>
-//                                 <option value="https://ngratesc.sirv.com/Mashkay/Scania-Catalogue-Combined_compressed.pdf%20(1).pdf">Scania</option>
-//                                 <option value="https://ngratesc.sirv.com/Mashkay/Mercedes-Catalogue-Combined_compressed.pdf%20(1).pdf">Mercedes Benz</option>
-//                                 <option value="https://ngratesc.sirv.com/Mashkay/MAN-Catalogue-pdf%20(1)_1.pdf">MAN</option>
+//                                 <option value="https://cdn.clipond.com/Mashkay/DAF-Catalogue-pdf%20(1).pdf">DAF</option>
+//                                 <option value="https://cdn.clipond.com/Mashkay/Volvo-Catalogue-pdf.pdf">Volvo</option>
+//                                 <option value="https://cdn.clipond.com/Mashkay/Iveco-Catalogue-Combined_compressed.pdf%20(1).pdf">IVECO</option>
+//                                 <option value="https://cdn.clipond.com/Mashkay/Scania-Catalogue-Combined_compressed.pdf%20(1).pdf">Scania</option>
+//                                 <option value="https://cdn.clipond.com/Mashkay/Mercedes-Catalogue-Combined_compressed.pdf%20(1).pdf">Mercedes Benz</option>
+//                                 <option value="https://cdn.clipond.com/Mashkay/MAN-Catalogue-pdf%20(1)_1.pdf">MAN</option>
 //                             </select>
 //                         </div>
 //                     </div>
