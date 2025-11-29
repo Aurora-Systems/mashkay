@@ -23,7 +23,7 @@ export default function YellowMachines() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Engine Components</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/C829882.jpeg"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/C829882.jpeg"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>
@@ -34,7 +34,7 @@ export default function YellowMachines() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Hydraulic Systems</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/Custom-Aluminum-Dump-Truck-Lift-Hand-Car-Lift-Hydraulic-Cylinder-300-mm-Stroke-for-Farm-Equipment.webp"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/Custom-Aluminum-Dump-Truck-Lift-Hand-Car-Lift-Hydraulic-Cylinder-300-mm-Stroke-for-Farm-Equipment.webp"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>
@@ -48,7 +48,7 @@ export default function YellowMachines() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Transmission Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/EV-Motor-360kw-550kw-Transmission-Amounted-Electric-Drive.webp"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/EV-Motor-360kw-550kw-Transmission-Amounted-Electric-Drive.webp"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>For seamless power transfer and consistent operation, we provide high-quality transmission components. Our range includes gearboxes, torque converters, clutches, and drive shafts, all designed to keep your equipment running smoothly.
@@ -60,7 +60,7 @@ export default function YellowMachines() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Undercarriage Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/Steel-Track-Chassis-Hydraulic-Undercarriage-System-0-5t-to-20t.webp"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/Steel-Track-Chassis-Hydraulic-Undercarriage-System-0-5t-to-20t.webp"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>Keep your machines steady and durable on any terrain with our undercarriage solutions. We offer tracks, rollers, sprockets, idlers, and more, all engineered for maximum durability and wear resistance, even in the harshest conditions.</p>
@@ -76,7 +76,7 @@ export default function YellowMachines() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Service Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/128253.jpg"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/128253.jpg"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>
@@ -87,7 +87,7 @@ export default function YellowMachines() {
                                 <div className="secondary_background w-100 rounded-bottom">\;
                                     <span className="text-white text-center fw-bold">Electrical Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/cat_sensors.png"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/cat_sensors.png"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>
