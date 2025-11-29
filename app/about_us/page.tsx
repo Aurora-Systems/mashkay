@@ -3,7 +3,7 @@ import { bg_img } from "../components/css_functions";
 export default function AboutUs() {
     return (
         <div>
-            <div className="d-flex align-items-center justify-content-center" style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/about_banner.jpg"), height: '90vh' }}>
+            <div className="d-flex align-items-center justify-content-center" style={{ ...bg_img("https://cdn.clipond.com/Mashkay/about_banner.jpg"), height: '90vh' }}>
                 <div className="secondary_opacity_bg bg-opacity-75 rounded p-5">
                     <h1 className="text-white display-1 fw-bold">
                         About Us
@@ -38,7 +38,7 @@ innovative,effective solutions to our esteemed customers.
 Professinalism,Customer focus ,Commitment to teamwork and intergrity.</p>
                     </div>
                     <div className="col-sm d-flex align-items-center" >
-                        <img src="https://ngratesc.sirv.com/Mashkay/4by4.png" className="img-fluid"/>
+                        <img src="https://cdn.clipond.com/Mashkay/4by4.png" className="img-fluid"/>
                     </div>
                 </div>
             </div>
@@ -50,17 +50,17 @@ Professinalism,Customer focus ,Commitment to teamwork and intergrity.</p>
                         <div className="col-sm secondary_background text-white rounded p-3">
                             <p className="fw-bold">Quality</p>
                             <p>We offer only the best parts from trusted manufacturers</p>
-                            <img src="https://ngratesc.sirv.com/Mashkay/quality.png" className="img-fluid" alt="thumbs up"/>
+                            <img src="https://cdn.clipond.com/Mashkay/quality.png" className="img-fluid" alt="thumbs up"/>
                         </div>
                         <div className="col-sm secondary_background text-white rounded p-3">
                             <p className="fw-bold">Customer Service</p>
                             <p>Our knowledgeable team is here to assist you with any questions or concerns.</p>
-                            <img src="https://ngratesc.sirv.com/Mashkay/customer_support.png" className="img-fluid" alt="thumbs up"/>
+                            <img src="https://cdn.clipond.com/Mashkay/customer_support.png" className="img-fluid" alt="thumbs up"/>
                         </div>
                         <div className="col-sm secondary_background text-white rounded p-3">
                             <p className="fw-bold">Dependable</p>
                             <p>Depend on us for timely deliveries and accurate information.</p>
-                            <img src="https://ngratesc.sirv.com/Mashkay/trust.png" className="img-fluid" alt="thumbs up"/>
+                            <img src="https://cdn.clipond.com/Mashkay/trust.png" className="img-fluid" alt="thumbs up"/>
                         </div>
                     </div>
                 </div>
