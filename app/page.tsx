@@ -73,34 +73,34 @@ export default function Home() {
           <div className="row gap-2 text-white">
             <div className="col-sm secondary_background rounded p-2 text-center mb-2">
               <h4 className="fw-bold text-center">Buses</h4>
-              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/different-passenger-bus-designs-image-2.avif")} >
+              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://cdn.clipond.com/Mashkay/different-passenger-bus-designs-image-2.avif")} >
 
               </div>
               {/* <img src="" className="img-thumbnail" alt="" /> */}
             </div>
             <div className="col-sm secondary_background rounded p-2 text-center mb-2">
               <h4 className="fw-bold text-center">Trucks</h4>
-              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/163035234858169.jpg")} >
+              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://cdn.clipond.com/Mashkay/163035234858169.jpg")} >
 
               </div>
-              {/* <img src="https://ngratesc.sirv.com/Mashkay/1294.jpg" className="img-thumbnail" alt="" /> */}
+              {/* <img src="https://cdn.clipond.com/Mashkay/1294.jpg" className="img-thumbnail" alt="" /> */}
 
             </div>
             <div className="col-sm secondary_background rounded p-2 text-center mb-2">
               <h4 className="fw-bold text-center">Yellow Machines</h4>
-              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/CM20210126-5d492-16f0e.jpeg")} >
+              <div className="small_img_holder  rounded border border-3 w-100" style={bg_img("https://cdn.clipond.com/Mashkay/CM20210126-5d492-16f0e.jpeg")} >
 
               </div>
-              {/* <img src="https://ngratesc.sirv.com/Mashkay/2149194766.jpg" className="img-thumbnail" alt="" /> */}
+              {/* <img src="https://cdn.clipond.com/Mashkay/2149194766.jpg" className="img-thumbnail" alt="" /> */}
 
             </div>
 
             <div className="col-sm secondary_background rounded p-2 text-center mb-2" >
               <h4 className="fw-bold">4x4</h4>
-              <div className="small_img_holder rounded border border-3 w-100" style={bg_img("https://ngratesc.sirv.com/Mashkay/VW_Amarok_-_Colorado_-_Nissan_Navara_-_Ranger.jpg")} >
+              <div className="small_img_holder rounded border border-3 w-100" style={bg_img("https://cdn.clipond.com/Mashkay/VW_Amarok_-_Colorado_-_Nissan_Navara_-_Ranger.jpg")} >
 
               </div>
-              {/* <img src="https://ngratesc.sirv.com/Mashkay/pexels-lenzatic-17157308.jpg" className="img-thumbnail" alt="" /> */}
+              {/* <img src="https://cdn.clipond.com/Mashkay/pexels-lenzatic-17157308.jpg" className="img-thumbnail" alt="" /> */}
 
             </div>
           </div>
@@ -132,7 +132,7 @@ export default function Home() {
         <div className="row text-center">
 
           <div className="col-sm">
-            <img src="https://ngratesc.sirv.com/Mashkay/american_ford.png" className="img-fluid rounded" />
+            <img src="https://cdn.clipond.com/Mashkay/american_ford.png" className="img-fluid rounded" />
 
           </div>
           <div className="col-sm d-flex align-items-center">
@@ -147,7 +147,7 @@ export default function Home() {
         </div>
         <div className="row text-center mb-3">
         <div className="col-sm mb-2 order-md-2">
-            <img src="https://ngratesc.sirv.com/Mashkay/truck_europe.png" className="img-fluid rounded" />
+            <img src="https://cdn.clipond.com/Mashkay/truck_europe.png" className="img-fluid rounded" />
           </div>
           <div className="col-sm mb-2 d-flex align-items-center">
             <div className="">
@@ -161,7 +161,7 @@ export default function Home() {
         </div>
         <div className="row text-center mb-3">
         <div className="col-sm mb-2">
-            <img src="https://ngratesc.sirv.com/Mashkay/chinese_tong.png" className="img-fluid rounded" />
+            <img src="https://cdn.clipond.com/Mashkay/chinese_tong.png" className="img-fluid rounded" />
 
           </div>
           <div className="col-sm mb-2 d-flex align-items-center">
@@ -185,7 +185,7 @@ export default function Home() {
           <div className="col-sm me-4 instock_items">
             <div className="align-items-center gap-2 bg-light">
               <div className="rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/intricate-arrangement-automotive-engine-components-displayed-neutral-background-transparent-png-background_94628-97333.jpg"  className="img-fluid" />
+                <img src="https://cdn.clipond.com/Mashkay/intricate-arrangement-automotive-engine-components-displayed-neutral-background-transparent-png-background_94628-97333.jpg"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Engine Parts</span>
@@ -195,7 +195,7 @@ export default function Home() {
           <div className="col-sm me-4 instock_items">
             <div className=" align-items-center gap-2 bg-light">
               <div className=" rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/close-up-hand-male-mechanic-changing-car-battery-car-service-center-concept-car-maintenance_61243-1199.avif"  className="img-fluid" />
+                <img src="https://cdn.clipond.com/Mashkay/close-up-hand-male-mechanic-changing-car-battery-car-service-center-concept-car-maintenance_61243-1199.avif"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Electrical</span>
@@ -205,7 +205,7 @@ export default function Home() {
           <div className="col-sm me-4 instock_items">
             <div className="align-items-center gap-2 bg-light">
               <div className="rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/radiator.avif"  className="img-fluid" />
+                <img src="https://cdn.clipond.com/Mashkay/radiator.avif"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Cooling Parts</span>
@@ -217,7 +217,7 @@ export default function Home() {
           <div className="col-sm me-4 instock_items">
             <div className="align-items-center gap-2 bg-light">
               <div className="rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/electric-car-cystem-wheelbase-with-electric-vehicle-drive-system-battery-pack-3d-render-white_268321-2970.jpg" width="" className="img-fluid" />
+                <img src="https://cdn.clipond.com/Mashkay/electric-car-cystem-wheelbase-with-electric-vehicle-drive-system-battery-pack-3d-render-white_268321-2970.jpg" width="" className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Suspension</span>
@@ -227,7 +227,7 @@ export default function Home() {
           <div className="col-sm me-4 instock_items">
             <div className="align-items-center gap-2 bg-light">
               <div className="rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/springs.jpg" className="img-fluid" />
+                <img src="https://cdn.clipond.com/Mashkay/springs.jpg" className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Springs</span>
@@ -237,7 +237,7 @@ export default function Home() {
           <div className="col-sm me-4 instock_items">
             <div className="align-items-center gap-2 bg-light">
               <div className="rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/red-signal-horn-truck-bus_1032820-2540.jpg"  className="img-fluid" />
+                <img src="https://cdn.clipond.com/Mashkay/red-signal-horn-truck-bus_1032820-2540.jpg"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Horns</span>
@@ -247,7 +247,7 @@ export default function Home() {
           <div className="col-sm me-4 instock_items">
             <div className=" align-items-center text-center gap-2 bg-light">
               <div className="rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/rear-light-new-silver-car_23-2147962986.jpg"  className="img-fluid" />
+                <img src="https://cdn.clipond.com/Mashkay/rear-light-new-silver-car_23-2147962986.jpg"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Lights</span>
@@ -257,7 +257,7 @@ export default function Home() {
           <div className="col-sm me-4 instock_items">
             <div className=" align-items-center gap-2 bg-light">
               <div className="rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/oil-filters-white-background_995428-11620.avif"  className="img-fluid" />
+                <img src="https://cdn.clipond.com/Mashkay/oil-filters-white-background_995428-11620.avif"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Filter Parts</span>
@@ -267,7 +267,7 @@ export default function Home() {
           <div className="col-sm  me-4 instock_items" >
             <div className=" align-items-center gap-2 bg-light">
               <div className=" rounded p-3">
-                <img src="https://ngratesc.sirv.com/Mashkay/26910.jpg"  className="img-fluid" />
+                <img src="https://cdn.clipond.com/Mashkay/26910.jpg"  className="img-fluid" />
               </div>
               <div className="bg-light rounded">
                 <span className="fw-bold">Brake Disks and Pads</span>
@@ -281,7 +281,7 @@ export default function Home() {
         <h2 className="display-2 fw-bold text-white">Our Product <span className="secondary_text">Partners</span></h2>
       </div>
       <div className="text-center">
-        <img src="https://ngratesc.sirv.com/Mashkay/products.png" className="img-fluid" />
+        <img src="https://cdn.clipond.com/Mashkay/products.png" className="img-fluid" />
 
       </div>
     </main>
