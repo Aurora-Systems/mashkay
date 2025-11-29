@@ -25,7 +25,7 @@ export default function FBYF(){
                         <div className="secondary_background w-100 rounded-bottom">
                             <span className="text-white fw-bold">Body Parts & Accesories</span>
                         </div>
-                        <div style={{...bg_img("https://ngratesc.sirv.com/Mashkay/toyota-hilux-revo-rocco-2015-2019-full-body-kit-to-2021-invincible-3.jpg"), height:"45vh"}}>
+                        <div style={{...bg_img("https://cdn.clipond.com/Mashkay/toyota-hilux-revo-rocco-2015-2019-full-body-kit-to-2021-invincible-3.jpg"), height:"45vh"}}>
                         </div>
                         <br/>
                         <p>
@@ -37,7 +37,7 @@ export default function FBYF(){
                     <div className="secondary_background w-100 rounded-bottom">
                             <span className="text-white fw-bold">Engine Parts</span>
                         </div>
-                        <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/intricate-arrangement-automotive-engine-components-displayed-neutral-background-transparent-png-background_94628-97333.jpg"),height:"45vh"}}>
+                        <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/intricate-arrangement-automotive-engine-components-displayed-neutral-background-transparent-png-background_94628-97333.jpg"),height:"45vh"}}>
                         </div>
                         <br/>
                         <p>                       
@@ -51,7 +51,7 @@ export default function FBYF(){
                     <div className="secondary_background w-100 rounded-bottom">
                             <span className="text-white fw-bold">Suspension Parts</span>
                         </div>
-                        <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/sus4.png"),height:"45vh"}}>
+                        <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/sus4.png"),height:"45vh"}}>
                         </div>
                         <br/>
                         <p>
@@ -64,7 +64,7 @@ export default function FBYF(){
                     <div className="secondary_background w-100 rounded-bottom">
                             <span className="text-white fw-bold">Electrical Parts</span>
                         </div>
-                        <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/4x4el.png"),height:"45vh"}}>
+                        <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/4x4el.png"),height:"45vh"}}>
                         </div>
                         <br/>
                         <p>
