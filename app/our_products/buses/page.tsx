@@ -20,7 +20,7 @@ export default function Buses() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Body Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/bus_parts_1.png"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/bus_parts_1.png"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>
@@ -32,7 +32,7 @@ export default function Buses() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Engine Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/busengine.png"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/busengine.png"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>
@@ -45,7 +45,7 @@ export default function Buses() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Suspension Components</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/bus_sus.png"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/bus_sus.png"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>
@@ -57,7 +57,7 @@ export default function Buses() {
                                 <div className="secondary_background w-100 rounded-bottom">
                                     <span className="text-white fw-bold">Electrical Parts</span>
                                 </div>
-                                <div style={{ ...bg_img("https://ngratesc.sirv.com/Mashkay/busel.png"), height: "45vh" }}>
+                                <div style={{ ...bg_img("https://cdn.clipond.com/Mashkay/busel.png"), height: "45vh" }}>
                                 </div>
                                 <br />
                                 <p>
